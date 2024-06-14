@@ -1,378 +1,362 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "shortDescription": "Western épico de mundo abierto.",
+    "description": "Red Dead Redemption 2 es un juego de acción y aventura ambientado en un mundo abierto del viejo oeste. Sigue la historia de Arthur Morgan, un forajido en busca de redención mientras enfrenta a las fuerzas de la ley y a otros bandidos. El juego destaca por su narrativa profunda, gráficos impresionantes y una jugabilidad envolvente que permite a los jugadores explorar vastos paisajes y realizar diversas actividades.",
+    "imageUrl": "https://www.bing.com/images/create/una-imagen-de-red-dead-redemption-ii-donde-arthur-/1-666b0b857254495da2c712452277252c?id=fpKFGXAPXeGZYwXyrK0lDw%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.mmRQQWvahsEsDXgjNpyN&FORM=GCRIDP&mode=overlay",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "categoria": "Acción",
+      "añoDeCreacion": "2018",
+      "calificacion": "5.0",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "imageSource": 
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "the-last-of-us-part-II",
+    "name": "The Last of Us Part II",
+    "shortDescription": "Secuela dramática y emotiva.",
+    "description": "The Last of Us Part II continúa la historia de Ellie y Joel en un mundo post-apocalíptico. El juego ofrece una narrativa intensa y emocional, explorando temas de venganza y redención. Con gráficos impresionantes y una jugabilidad refinada, esta entrega de la serie ha sido aclamada por su profundidad emocional y la calidad de su diseño.",
+    "imageUrl": "https://www.bing.com/images/create/una-imagen-de-ellie-de-the-last-of-us-ii-con-bosto/1-666b0e5b172046f280728a70e123f2ed?id=y1MhQCYUlBRQcPwmHzQCXw%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.rLEiNmB6PE699RVAhmUE&FORM=GCRIDP&mode=overlay",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "categoria": "Acción",
+      "añoDeCreacion": "2020",
+      "calificacion": "5.0",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "imageSource": 
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "doom-eternal",
+    "name": "DOOM Eternal",
+    "shortDescription": "Acción frenética de disparos.",
+    "description": "DOOM Eternal es un juego de disparos en primera persona que continúa la saga del Marine de Doom enfrentándose a hordas de demonios. Con una jugabilidad rápida y violenta, el juego introduce nuevas mecánicas y armas, además de niveles diseñados para mantener a los jugadores en constante movimiento. La banda sonora y los gráficos complementan la experiencia frenética.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-doom-donde-se-vea-a/1-666b1e84383b4cd196f985538f184870?id=TbXTfnu%2baWiQpJ7cpix86g%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.mpObYzaxYVEZ9qiQtjRP&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "categoria": "Acción",
+      "añoDeCreacion": "2020",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "imageSource": 
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "god-of-war",
+    "name": "God of War",
+    "shortDescription": "Mitología nórdica y acción.",
+    "description": "God of War reinventa la serie con Kratos enfrentando a dioses y monstruos de la mitología nórdica. Con una narrativa más madura y emocional, el juego introduce a Atreus, el hijo de Kratos, como un personaje crucial. La jugabilidad combina combates brutales con exploración y resolución de acertijos, ofreciendo una experiencia rica y envolvente.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-god-of-war-donde-se/1-666b1f10bb8146a4885857ef46074efe?id=rR9y9clVck7gtINKJDQHKw%3d%3d&view=detailv2&idpp=genimg&thId=OIG2.II6lACMF69eS509sqdJ_&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "categoria": "Acción",
+      "añoDeCreacion": "2018",
+      "calificacion": "5.0",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "imageSource": 
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "marvels-spider-man",
+    "name": "Marvel's Spider-Man",
+    "shortDescription": "Superhéroe en Nueva York.",
+    "description": "Marvel's Spider-Man permite a los jugadores ponerse en la piel de Peter Parker mientras protege Nueva York de diversos villanos. Con una jugabilidad fluida y acrobática, el juego destaca por sus mecánicas de movimiento y combate, además de una historia original que expande el universo del Hombre Araña.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-marvel27s-spider-man/1-666b201d9626487bb84f0dd43fa6782f?id=HWAJWtX3gm4heQPPAmr8fg%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.QO6PbYGCeRgPherZziiS&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "categoria": "Acción",
+      "añoDeCreacion": "2018",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "imageSource": 
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "cyberpunk-2077",
+    "name": "Cyberpunk 2077",
+    "shortDescription": "Futuro distópico y acción.",
+    "description": "Cyberpunk 2077 es un RPG de acción en un mundo abierto futurista. Los jugadores exploran Night City, una ciudad inmersa en tecnología y conflictos. A pesar de un lanzamiento polémico debido a bugs, el juego ha sido elogiado por su narrativa y la profundidad de su mundo, ofreciendo múltiples formas de abordar misiones y desarrollar el personaje.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-cyberpunk-2077-dond/1-666b207e6ebd494298df389b5074a38b?id=bft1%2fKpmR54tW4Vp%2fuGRZA%3d%3d&view=detailv2&idpp=genimg&thId=OIG2.gTCsNpGcbb7ka.jcgqFF&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "categoria": "Acción",
+      "añoDeCreacion": "2020",
+      "calificacion": "3.5",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "imageSource": 
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "the-legend-of-zelda-breath-of-the-wild",
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "shortDescription": "Aventura en un mundo abierto.",
+    "description": "The Legend of Zelda: Breath of the Wild redefine el género de aventuras con su vasto mundo abierto y su libertad de exploración. Los jugadores asumen el rol de Link en una misión para rescatar a la princesa Zelda y derrotar a Ganon. El juego es conocido por su diseño innovador, rompecabezas ingeniosos y un hermoso estilo artístico.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-de-link-el-protagonista-de-legend-/1-666c83896b2a47f78851469833d37ce5?id=C4F%2brRh87yPirasENXcibA%3d%3d&view=detailv2&idpp=genimg&thId=OIG4.nPwch5Nkevxd759tSsZA&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "categoria": "Aventura",
+      "añoDeCreacion": "2017",
+      "calificacion": "5.0",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "imageSource": 
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "uncharted-4-a-thiefs-end",
+    "name": "Uncharted 4: A Thief's End",
+    "shortDescription": "Búsqueda de tesoros y aventura.",
+    "description": "Uncharted 4: A Thief's End sigue a Nathan Drake en su última aventura para encontrar un tesoro perdido. El juego combina acción y plataformas con una narrativa cinematográfica. Los impresionantes gráficos y la atención al detalle hacen de este juego una experiencia inmersiva, cerrando la saga de Drake con una nota alta.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-protagonista-de-uncharted-43a-a/1-666c83e073844a59bb1460a2b33a7d9d?id=vIhFakPfMs8PVOUdz%2f407A%3d%3d&view=detailv2&idpp=genimg&thId=OIG2.tzajd8rvVUE__0k_S1Mh&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "categoria": "Aventura",
+      "añoDeCreacion": "2016",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "imageSource": 
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "tomb-raider",
+    "name": "Tomb Raider",
+    "shortDescription": "Reboot de Lara Croft.",
+    "description": "Tomb Raider reinventa la historia de Lara Croft, mostrando su evolución de una joven inexperta a una aventurera intrépida. Enfrentando desafíos en una isla misteriosa, Lara debe sobrevivir y descubrir secretos antiguos. Con gráficos impresionantes y una narrativa robusta, el juego revitaliza la serie clásica con nuevos elementos de jugabilidad y exploración.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-tomb-raider-donde-s/1-666c84ff7ba24678ae503d01e7e10024?id=NgYlaaIJkJv4nddy2WXQoA%3d%3d&view=detailv2&idpp=genimg&thId=OIG4.9hbOz.UwQwyzvcQ7LqSQ&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "categoria": "Aventura",
+      "añoDeCreacion": "2013",
+      "calificacion": "4.0",
     },
     "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "imageSource": 
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "journey",
+    "name": "Journey",
+    "shortDescription": "Viaje emocional y artístico.",
+    "description": "Journey es un juego de aventura que se enfoca en la exploración y la experiencia emocional. Los jugadores controlan a un viajero encapuchado que atraviesa un vasto desierto, descubriendo ruinas antiguas y trabajando con otros jugadores anónimos. El arte impresionante, la música emotiva y la jugabilidad simple pero significativa hacen de Journey una experiencia única.",
+    "imageUrl": "",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "categoria": "Aventura",
+      "añoDeCreacion": "2012",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "imageSource": 
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "firewatch",
+    "name": "Firewatch",
+    "shortDescription": "Misterio en la naturaleza.",
+    "description": "Firewatch es una aventura en primera persona donde los jugadores toman el rol de Henry, un vigilante de incendios en un parque nacional. A través de la comunicación por radio con su supervisora, Delilah, Henry explora el entorno mientras descubre misterios que afectan su trabajo y su vida. La narrativa inmersiva y los paisajes impresionantes son los puntos fuertes de este juego.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-firewatch-donde-se-/1-666c863e5f6c4680b47336fcffbd755f?id=Czxsi69srttVqzbLY2Hq%2fg%3d%3d&view=detailv2&idpp=genimg&thId=OIG2.A1fhzYRgRjST8RsvbccW&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "categoria": "Aventura",
+      "añoDeCreacion": "2016",
+      "calificacion": "4.0",
     },
     "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "imageSource": 
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "life-is-strange",
+    "name": "Life is Strange",
+    "shortDescription": "Aventura con decisiones impactantes.",
+    "description": "Life is Strange es una aventura gráfica episódica que sigue a Max Caulfield, una estudiante con la habilidad de retroceder en el tiempo. A lo largo del juego, las decisiones de los jugadores afectan la narrativa, explorando temas de amistad, amor y destino. Su estilo artístico único y su banda sonora memorable complementan la experiencia emocional y narrativa.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-life-is-strange-don/1-666c86d276aa4fa8b7b7fc7c8e5232cc?id=GmgRCV4YAw4pjSkM6O1Rrg%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.oUGUhKQu2kDVlZvSq0_M&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "categoria": "Aventura",
+      "añoDeCreacion": "2015",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "imageSource": 
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "the-witcher-3-wild-hunt",
+    "name": "The Witcher 3: Wild Hunt",
+    "shortDescription": "RPG épico de fantasía.",
+    "description": "The Witcher 3: Wild Hunt es un RPG de mundo abierto que sigue las aventuras de Geralt de Rivia, un cazador de monstruos. Con una narrativa rica y compleja, misiones secundarias profundas y un mundo vibrante, el juego ha sido ampliamente elogiado por su diseño detallado y su jugabilidad envolvente. Los gráficos y la música complementan perfectamente la atmósfera del juego.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-donde-se-vea-a-gera/1-666c8783b79e4f4290a0250e5327f4e5?id=V4vTGT22Sq4Gxaf%2ftN81Yg%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.M5FYFfIYcufvPrbSYDeZ&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "categoria": "Rol (RPG)",
+      "añoDeCreacion": "2015",
+      "calificacion": "5.0",
     },
     "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "imageSource": 
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "persona-5",
+    "name": "Persona 5",
+    "shortDescription": "JRPG con estilo y profundidad.",
+    "description": "Persona 5 es un JRPG que sigue a un grupo de estudiantes de secundaria con la habilidad de invocar Personas para luchar contra amenazas sobrenaturales. El juego combina elementos de simulación social con combates por turnos, ofreciendo una narrativa profunda y personajes bien desarrollados. Su estilo visual y banda sonora son altamente aclamados.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-persona-5-del-2016/1-666c8859dbd44f899a110765f7433387?id=%2b7yev0FoRi0TjaFyThsH7w%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.Ey0asJda0rgLLFM4NHJV&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "categoria": "Rol (RPG)",
+      "añoDeCreacion": "2016",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "imageSource": 
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "dark-souls-III",
+    "name": "Dark Souls III",
+    "shortDescription": "RPG desafiante y atmosférico.",
+    "description": "Dark Souls III es conocido por su dificultad elevada y su atmósfera oscura y opresiva. Los jugadores deben explorar un mundo interconectado, enfrentándose a enemigos implacables y jefes desafiantes. La narrativa críptica y el diseño de niveles intrincado recompensan la paciencia y la habilidad, ofreciendo una experiencia única y gratificante.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-dark-souls-iii-con-/1-666c88cf81a94d69aa578ca7a3955c72?id=uQ6S2KWQw2q%2ftxBJSP9mFQ%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.2gk2Y.zC74O1vgXqCaNW&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "categoria": "Rol (RPG)",
+      "añoDeCreacion": "2016",
+      "calificacion": "4.0",
     },
     "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "imageSource": 
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "skyrim",
+    "name": "Skyrim",
+    "shortDescription": "Mundo abierto y exploración.",
+    "description": "The Elder Scrolls V: Skyrim es un RPG de mundo abierto donde los jugadores pueden explorar la vasta región de Skyrim, enfrentar dragones y descubrir antiguas ruinas. La libertad de elección, junto con una variedad de misiones y habilidades, hace que cada partida sea única. Los gráficos y la música épica complementan la experiencia de inmersión en este vasto mundo.",
+    "imageUrl": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-skyrim-que-sea-como/1-666c8947ff064c328fa200b32d961776?id=cEDGlHF6acXtZFoxV52DbQ%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.NCLfImdlSL3Rg_Gc28eS&FORM=GCRIDP&mode=overlay ",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "categoria": "Rol (RPG)",
+      "añoDeCreacion": "2011",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "imageSource": 
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "divinity-original-sin-2",
+    "name": "Divinity: Original Sin 2",
+    "shortDescription": "RPG táctico y profundo.",
+    "description": "Divinity: Original Sin 2 es un RPG táctico que permite a los jugadores crear y desarrollar personajes únicos en un mundo de fantasía lleno de magia y misterio. La jugabilidad se centra en el combate táctico por turnos, la exploración y la toma de decisiones que afectan la narrativa. Su complejidad y riqueza narrativa lo han convertido en un favorito entre los fans del género.",
+    "imageUrl": "",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "categoria": "Rol (RPG)",
+      "añoDeCreacion": "2017",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "imageSource": 
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "final-fantasy-XV",
+    "name": "Final Fantasy XV",
+    "shortDescription": "Aventura épica de rol.",
+    "description": "Final Fantasy XV sigue la historia del príncipe Noctis y sus amigos en un viaje para reclamar su trono. El juego combina elementos de RPG con un sistema de combate en tiempo real, ofreciendo un vasto mundo abierto para explorar. La narrativa emocional y los gráficos impresionantes hacen de este juego una entrega memorable de la serie Final Fantasy.",
+    "imageUrl": "",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "categoria": "Rol (RPG)",
+      "añoDeCreacion": "2016",
+      "calificacion": "4.0",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "imageSource": 
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "xcom-2",
+    "name": "XCOM 2",
+    "shortDescription": "Estrategia táctica y alienígenas.",
+    "description": "XCOM 2 es un juego de estrategia por turnos donde los jugadores lideran una resistencia contra una invasión alienígena. Con una jugabilidad táctica profunda y una narrativa intensa, los jugadores deben gestionar recursos, investigar nuevas tecnologías y planificar misiones para derrotar a los invasores. La dificultad y la rejugabilidad lo hacen desafiante y adictivo.",
+    "imageUrl": "",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "categoria": "Estrategia",
+      "añoDeCreacion": "2016",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "imageSource": 
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "civilization-VI",
+    "name": "Civilization VI",
+    "shortDescription": "Construye y expande tu imperio.",
+    "description": "Civilization VI es un juego de estrategia por turnos donde los jugadores construyen y expanden una civilización desde la antigüedad hasta la era moderna. El juego ofrece una variedad de líderes y civilizaciones, cada uno con habilidades únicas. La profundidad estratégica y la atención al detalle hacen de este juego una experiencia inmersiva y educativa.",
+    "imageUrl": "",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "categoria": "Estrategia",
+      "añoDeCreacion": "2016",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "imageSource": 
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "total-war-three-kingdoms",
+    "name": "Total War: Three Kingdoms",
+    "shortDescription": "Estrategia en la antigua China.",
+    "description": "Total War: Three Kingdoms combina estrategia en tiempo real y por turnos, ambientado en la era de los Tres Reinos en China. Los jugadores deben gestionar recursos, diplomacia y tácticas militares para unificar China bajo su mandato. Los gráficos detallados y la narrativa histórica ofrecen una experiencia rica y envolvente.",
+    "imageUrl": "",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "categoria": "Estrategia",
+      "añoDeCreacion": "2019",
+      "calificacion": "4.0",
     },
     "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "imageSource": 
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "starCraft-II",
+    "name": "StarCraft II",
+    "shortDescription": "Estrategia en tiempo real espacial.",
+    "description": "StarCraft II es un juego de estrategia en tiempo real que sigue la lucha entre tres razas: Terran, Zerg y Protoss. Con una jugabilidad rápida y competitiva, el juego se centra en la recolección de recursos, la construcción de bases y el combate estratégico. Sus expansiones y modo multijugador lo han mantenido relevante en la comunidad de eSports.",
+    "imageUrl": "",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "categoria": "Estrategia",
+      "añoDeCreacion": "2010",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "imageSource": 
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "id": "age-of-empires-II-definitive-edition",
+    "name": "Age of Empires II: Definitive Edition",
+    "shortDescription": "Clásico remasterizado de estrategia.",
+    "description": "Age of Empires II: Definitive Edition es una remasterización del clásico juego de estrategia en tiempo real. Los jugadores deben construir y expandir imperios, gestionando recursos y unidades militares. La edición definitiva ofrece gráficos mejorados, nueva música y contenido adicional, manteniendo la jugabilidad adictiva y estratégica que hizo al original tan popular.",
+    "imageUrl": "",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "categoria": "Estrategia",
+      "añoDeCreacion": "2019",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+      "imageSource": 
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "id": "fire-emblem-three-houses",
+    "name": "Fire Emblem: Three Houses",
+    "shortDescription": "Estrategia táctica y narrativa.",
+    "description": "Fire Emblem: Three Houses es un juego de estrategia táctica que también incorpora elementos de simulación social. Los jugadores toman el rol de un profesor en una academia militar, entrenando y liderando a sus estudiantes en batallas estratégicas. La narrativa profunda y los personajes bien desarrollados, junto con su jugabilidad estratégica, han sido altamente elogiados.",
+    "imageUrl": "",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "categoria": "Estrategia",
+      "añoDeCreacion": "2019",
+      "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": ""
+      "imageSource": 
     }
-  }
+  },
 ];
