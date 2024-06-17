@@ -3,18 +3,18 @@ export default [
     "id": "red-dead-redemption-2",
     "name": "Red Dead Redemption 2",
     "shortDescription": "Western épico de mundo abierto.",
-    "description": "Red Dead Redemption 2 es un juego de acción y aventura ambientado en un mundo abierto del viejo oeste. Sigue la historia de Arthur Morgan, un forajido en busca de redención mientras enfrenta a las fuerzas de la ley y a otros bandidos. El juego destaca por su narrativa profunda, gráficos impresionantes y una jugabilidad envolvente que permite a los jugadores explorar vastos paisajes y realizar diversas actividades.",
-    "imageUrl": "https://www.bing.com/images/create/una-imagen-de-red-dead-redemption-ii-donde-arthur-/1-666b0b857254495da2c712452277252c?id=fpKFGXAPXeGZYwXyrK0lDw%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.mmRQQWvahsEsDXgjNpyN&FORM=GCRIDP&mode=overlay",
+    "description": "Red Dead Redemption 2 es un juego de acción y aventura desarrollado por Rockstar Games. Ambientado en 1899, sigue la historia de Arthur Morgan, un forajido miembro de la banda de Dutch van der Linde, mientras lidian con la desaparición del viejo oeste. El juego presenta un vasto mundo abierto lleno de vida, detallado y dinámico, con una narrativa profunda y emotiva. Los jugadores pueden cazar, pescar, montar a caballo, y explorar diversas actividades, mientras se enfrentan a dilemas morales que afectan el desenlace de la historia.",
+    "imageUrl": "",
     "facts": {
-      "categoria": "Acción",
-      "añoDeCreacion": "2018",
-      "calificacion": "5.0",
+      "category": "Acción",
+      "yearOfCreation": "2018",
+      "ranking": "5.0",
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/una-imagen-de-red-dead-redemption-ii-donde-arthur-/1-666b0b857254495da2c712452277252c?id=fpKFGXAPXeGZYwXyrK0lDw%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.mmRQQWvahsEsDXgjNpyN&FORM=GCRIDP&mode=overlay"
     }
   },
-  {
+  /*{
     "id": "the-last-of-us-part-II",
     "name": "The Last of Us Part II",
     "shortDescription": "Secuela dramática y emotiva.",
@@ -358,5 +358,5 @@ export default [
     "extraInfo": {
       "imageSource": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/07/analisis-fire-emblem-three-houses.jpg?tf=3840x "
     }
-  },
+  },*/
 ];
