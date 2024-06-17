@@ -11,7 +11,7 @@ export default [
       "calificacion": "5.0",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/una-imagen-de-red-dead-redemption-ii-donde-arthur-/1-666b0b857254495da2c712452277252c?id=fpKFGXAPXeGZYwXyrK0lDw%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.mmRQQWvahsEsDXgjNpyN&FORM=GCRIDP&mode=overlay"
     }
   },
   {
@@ -26,7 +26,7 @@ export default [
       "calificacion": "5.0",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/una-imagen-de-ellie-de-the-last-of-us-ii-con-bosto/1-666b0e5b172046f280728a70e123f2ed?id=y1MhQCYUlBRQcPwmHzQCXw%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.rLEiNmB6PE699RVAhmUE&FORM=GCRIDP&mode=overlay"
     }
   },
   {
@@ -41,7 +41,7 @@ export default [
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-doom-donde-se-vea-a/1-666b1e84383b4cd196f985538f184870?id=TbXTfnu%2baWiQpJ7cpix86g%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.mpObYzaxYVEZ9qiQtjRP&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -56,7 +56,7 @@ export default [
       "calificacion": "5.0",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-god-of-war-donde-se/1-666b1f10bb8146a4885857ef46074efe?id=rR9y9clVck7gtINKJDQHKw%3d%3d&view=detailv2&idpp=genimg&thId=OIG2.II6lACMF69eS509sqdJ_&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -71,7 +71,7 @@ export default [
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-marvel27s-spider-man/1-666b201d9626487bb84f0dd43fa6782f?id=HWAJWtX3gm4heQPPAmr8fg%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.QO6PbYGCeRgPherZziiS&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -86,7 +86,7 @@ export default [
       "calificacion": "3.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-cyberpunk-2077-dond/1-666b207e6ebd494298df389b5074a38b?id=bft1%2fKpmR54tW4Vp%2fuGRZA%3d%3d&view=detailv2&idpp=genimg&thId=OIG2.gTCsNpGcbb7ka.jcgqFF&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -101,7 +101,7 @@ export default [
       "calificacion": "5.0",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-de-link-el-protagonista-de-legend-/1-666c83896b2a47f78851469833d37ce5?id=C4F%2brRh87yPirasENXcibA%3d%3d&view=detailv2&idpp=genimg&thId=OIG4.nPwch5Nkevxd759tSsZA&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -116,7 +116,7 @@ export default [
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-protagonista-de-uncharted-43a-a/1-666c83e073844a59bb1460a2b33a7d9d?id=vIhFakPfMs8PVOUdz%2f407A%3d%3d&view=detailv2&idpp=genimg&thId=OIG2.tzajd8rvVUE__0k_S1Mh&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -131,7 +131,7 @@ export default [
       "calificacion": "4.0",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-tomb-raider-donde-s/1-666c84ff7ba24678ae503d01e7e10024?id=NgYlaaIJkJv4nddy2WXQoA%3d%3d&view=detailv2&idpp=genimg&thId=OIG4.9hbOz.UwQwyzvcQ7LqSQ&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -139,14 +139,14 @@ export default [
     "name": "Journey",
     "shortDescription": "Viaje emocional y artístico.",
     "description": "Journey es un juego de aventura que se enfoca en la exploración y la experiencia emocional. Los jugadores controlan a un viajero encapuchado que atraviesa un vasto desierto, descubriendo ruinas antiguas y trabajando con otros jugadores anónimos. El arte impresionante, la música emotiva y la jugabilidad simple pero significativa hacen de Journey una experiencia única.",
-    "imageUrl": "",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5d5ad9cc8c20010001f6b3fc/1566579077680-VKYZKGWKU39NV845Q7D8/journey+video+juego.JPG  ",
     "facts": {
       "categoria": "Aventura",
       "añoDeCreacion": "2012",
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://images.squarespace-cdn.com/content/v1/5d5ad9cc8c20010001f6b3fc/1566579077680-VKYZKGWKU39NV845Q7D8/journey+video+juego.JPG  "
     }
   },
   {
@@ -161,7 +161,7 @@ export default [
       "calificacion": "4.0",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-firewatch-donde-se-/1-666c863e5f6c4680b47336fcffbd755f?id=Czxsi69srttVqzbLY2Hq%2fg%3d%3d&view=detailv2&idpp=genimg&thId=OIG2.A1fhzYRgRjST8RsvbccW&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -176,7 +176,7 @@ export default [
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-life-is-strange-don/1-666c86d276aa4fa8b7b7fc7c8e5232cc?id=GmgRCV4YAw4pjSkM6O1Rrg%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.oUGUhKQu2kDVlZvSq0_M&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -191,7 +191,7 @@ export default [
       "calificacion": "5.0",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-donde-se-vea-a-gera/1-666c8783b79e4f4290a0250e5327f4e5?id=V4vTGT22Sq4Gxaf%2ftN81Yg%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.M5FYFfIYcufvPrbSYDeZ&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -206,7 +206,7 @@ export default [
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-persona-5-del-2016/1-666c8859dbd44f899a110765f7433387?id=%2b7yev0FoRi0TjaFyThsH7w%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.Ey0asJda0rgLLFM4NHJV&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -221,7 +221,7 @@ export default [
       "calificacion": "4.0",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-dark-souls-iii-con-/1-666c88cf81a94d69aa578ca7a3955c72?id=uQ6S2KWQw2q%2ftxBJSP9mFQ%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.2gk2Y.zC74O1vgXqCaNW&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -236,7 +236,7 @@ export default [
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://www.bing.com/images/create/crea-una-imagen-del-videojuego-skyrim-que-sea-como/1-666c8947ff064c328fa200b32d961776?id=cEDGlHF6acXtZFoxV52DbQ%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.NCLfImdlSL3Rg_Gc28eS&FORM=GCRIDP&mode=overlay "
     }
   },
   {
@@ -244,14 +244,14 @@ export default [
     "name": "Divinity: Original Sin 2",
     "shortDescription": "RPG táctico y profundo.",
     "description": "Divinity: Original Sin 2 es un RPG táctico que permite a los jugadores crear y desarrollar personajes únicos en un mundo de fantasía lleno de magia y misterio. La jugabilidad se centra en el combate táctico por turnos, la exploración y la toma de decisiones que afectan la narrativa. Su complejidad y riqueza narrativa lo han convertido en un favorito entre los fans del género.",
-    "imageUrl": "",
+    "imageUrl": "https://static.bandainamcoent.eu/high/divinity/divinity-original-sin-2/00-page-setup/dos2_game-thumbnail.jpg ",
     "facts": {
       "categoria": "Rol (RPG)",
       "añoDeCreacion": "2017",
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://static.bandainamcoent.eu/high/divinity/divinity-original-sin-2/00-page-setup/dos2_game-thumbnail.jpg "
     }
   },
   {
@@ -259,14 +259,14 @@ export default [
     "name": "Final Fantasy XV",
     "shortDescription": "Aventura épica de rol.",
     "description": "Final Fantasy XV sigue la historia del príncipe Noctis y sus amigos en un viaje para reclamar su trono. El juego combina elementos de RPG con un sistema de combate en tiempo real, ofreciendo un vasto mundo abierto para explorar. La narrativa emocional y los gráficos impresionantes hacen de este juego una entrega memorable de la serie Final Fantasy.",
-    "imageUrl": "",
+    "imageUrl": "https://th.bing.com/th/id/OIG4.yAIHyQ34DCa8nyP43yda?pid=ImgGn  ",
     "facts": {
       "categoria": "Rol (RPG)",
       "añoDeCreacion": "2016",
       "calificacion": "4.0",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://th.bing.com/th/id/OIG4.yAIHyQ34DCa8nyP43yda?pid=ImgGn  "
     }
   },
   {
@@ -274,14 +274,14 @@ export default [
     "name": "XCOM 2",
     "shortDescription": "Estrategia táctica y alienígenas.",
     "description": "XCOM 2 es un juego de estrategia por turnos donde los jugadores lideran una resistencia contra una invasión alienígena. Con una jugabilidad táctica profunda y una narrativa intensa, los jugadores deben gestionar recursos, investigar nuevas tecnologías y planificar misiones para derrotar a los invasores. La dificultad y la rejugabilidad lo hacen desafiante y adictivo.",
-    "imageUrl": "",
+    "imageUrl": "https://img.redbull.com/images/q_auto,f_auto/redbullcom/2016/02/05/1331774967672_2/la-mejor-manera-de-jugar-xcom-2 ",
     "facts": {
       "categoria": "Estrategia",
       "añoDeCreacion": "2016",
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://img.redbull.com/images/q_auto,f_auto/redbullcom/2016/02/05/1331774967672_2/la-mejor-manera-de-jugar-xcom-2 "
     }
   },
   {
@@ -289,14 +289,14 @@ export default [
     "name": "Civilization VI",
     "shortDescription": "Construye y expande tu imperio.",
     "description": "Civilization VI es un juego de estrategia por turnos donde los jugadores construyen y expanden una civilización desde la antigüedad hasta la era moderna. El juego ofrece una variedad de líderes y civilizaciones, cada uno con habilidades únicas. La profundidad estratégica y la atención al detalle hacen de este juego una experiencia inmersiva y educativa.",
-    "imageUrl": "",
+    "imageUrl": "https://images.ctfassets.net/wn7ipiv9ue5v/6MYg8PHdexAuyTSPul00qu/2f13e721cb9dda84f6b77d1d6fb36f52/2KGMKT_CIV_VI_GS_D2C_Hero_3840x2160_1.jpg",
     "facts": {
       "categoria": "Estrategia",
       "añoDeCreacion": "2016",
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://images.ctfassets.net/wn7ipiv9ue5v/6MYg8PHdexAuyTSPul00qu/2f13e721cb9dda84f6b77d1d6fb36f52/2KGMKT_CIV_VI_GS_D2C_Hero_3840x2160_1.jpg"
     }
   },
   {
@@ -304,14 +304,14 @@ export default [
     "name": "Total War: Three Kingdoms",
     "shortDescription": "Estrategia en la antigua China.",
     "description": "Total War: Three Kingdoms combina estrategia en tiempo real y por turnos, ambientado en la era de los Tres Reinos en China. Los jugadores deben gestionar recursos, diplomacia y tácticas militares para unificar China bajo su mandato. Los gráficos detallados y la narrativa histórica ofrecen una experiencia rica y envolvente.",
-    "imageUrl": "",
+    "imageUrl": "https://th.bing.com/th/id/OIG3.igeRokvMBg0B1bs_Pqf9?pid=ImgGn",
     "facts": {
       "categoria": "Estrategia",
       "añoDeCreacion": "2019",
       "calificacion": "4.0",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://th.bing.com/th/id/OIG3.igeRokvMBg0B1bs_Pqf9?pid=ImgGn"
     }
   },
   {
@@ -319,14 +319,14 @@ export default [
     "name": "StarCraft II",
     "shortDescription": "Estrategia en tiempo real espacial.",
     "description": "StarCraft II es un juego de estrategia en tiempo real que sigue la lucha entre tres razas: Terran, Zerg y Protoss. Con una jugabilidad rápida y competitiva, el juego se centra en la recolección de recursos, la construcción de bases y el combate estratégico. Sus expansiones y modo multijugador lo han mantenido relevante en la comunidad de eSports.",
-    "imageUrl": "",
+    "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt515b89f9551b0974/6322504d636d390da7825f0a/starcraft-ii-campaign-collection-section1-feature1.jpg?imwidth=1920&imdensity=2.625 ",
     "facts": {
       "categoria": "Estrategia",
       "añoDeCreacion": "2010",
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt515b89f9551b0974/6322504d636d390da7825f0a/starcraft-ii-campaign-collection-section1-feature1.jpg?imwidth=1920&imdensity=2.625 "
     }
   },
   {
@@ -334,14 +334,14 @@ export default [
     "name": "Age of Empires II: Definitive Edition",
     "shortDescription": "Clásico remasterizado de estrategia.",
     "description": "Age of Empires II: Definitive Edition es una remasterización del clásico juego de estrategia en tiempo real. Los jugadores deben construir y expandir imperios, gestionando recursos y unidades militares. La edición definitiva ofrece gráficos mejorados, nueva música y contenido adicional, manteniendo la jugabilidad adictiva y estratégica que hizo al original tan popular.",
-    "imageUrl": "",
+    "imageUrl": "https://th.bing.com/th/id/OIG4.hoEpkCQcN_ze_aBLJ2sk?w=1024&h=1024&rs=1&pid=ImgDetMain",
     "facts": {
       "categoria": "Estrategia",
       "añoDeCreacion": "2019",
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://th.bing.com/th/id/OIG4.hoEpkCQcN_ze_aBLJ2sk?w=1024&h=1024&rs=1&pid=ImgDetMain"
     }
   },
   {
@@ -349,14 +349,14 @@ export default [
     "name": "Fire Emblem: Three Houses",
     "shortDescription": "Estrategia táctica y narrativa.",
     "description": "Fire Emblem: Three Houses es un juego de estrategia táctica que también incorpora elementos de simulación social. Los jugadores toman el rol de un profesor en una academia militar, entrenando y liderando a sus estudiantes en batallas estratégicas. La narrativa profunda y los personajes bien desarrollados, junto con su jugabilidad estratégica, han sido altamente elogiados.",
-    "imageUrl": "",
+    "imageUrl": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/07/analisis-fire-emblem-three-houses.jpg?tf=3840x ",
     "facts": {
       "categoria": "Estrategia",
       "añoDeCreacion": "2019",
       "calificacion": "4.5",
     },
     "extraInfo": {
-      "imageSource": 
+      "imageSource": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/07/analisis-fire-emblem-three-houses.jpg?tf=3840x "
     }
   },
 ];
