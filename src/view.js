@@ -5,7 +5,7 @@ export const renderItems = (data) => {
   
   return 'example';
 };
-
+/*
 document.body.onload = addElement;
 
 function addElement() {
@@ -20,4 +20,4 @@ function addElement() {
   document.body.insertBefore(newDiv, currentDiv);
 }
 
-console.log();
+console.log();*/
