@@ -1,10 +1,41 @@
 export const renderItems = (data) => {
   console.log(data)
   // Aquí comienza tu código y puedes retornar lo que tu necesites
+  const ul = document.createElement("ul");
+  data.forEach(item => {
+    const li = document.createElement('li');
 
+    const nameElement = document.createElement('h3');
+    nameElement.textContent = item.name;
+
+    const imageUrlElement = document.createElement('img');
+    imageUrlElement.textContent = item.imageUrl;
+
+    const shortDescriptionElement = document.createElement('p');
+    shortDescriptionElement.textContent = item.shortDescription;
+
+    const descriptionElement = document.createElement('p');
+    descriptionElement.textContent = item.description;
+
+    const categoryElement = document.createElement('p');
+    categoryElement.textContent = item.category;
+    
+    li.appendChild(nameElement);
+    li.appendChild(imageUrlElement);
+    li.appendChild(shortDescriptionElement);
+    li.appendChild(descriptionElement);
+    li.appendChild(categoryElement);
+
+
+  ul.appendChild(li);
+  });
+
+return ul;
   
   return 'example';
 };
+
+
 /*
 document.body.onload = addElement;
 
