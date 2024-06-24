@@ -274,7 +274,7 @@ export default [
     "name": "XCOM 2",
     "shortDescription": "Estrategia táctica y alienígenas.",
     "description": "XCOM 2 es un juego de estrategia por turnos desarrollado por Firaxis Games. La historia se desarrolla 20 años después de los eventos de XCOM: Enemy Unknown, en un mundo donde la humanidad ha sido conquistada por una fuerza alienígena. Los jugadores lideran la resistencia humana, gestionando recursos, investigando nuevas tecnologías y planificando misiones tácticas para derrotar a los invasores. El juego es conocido por su alta dificultad, profundidad estratégica y la necesidad de tomar decisiones críticas bajo presión. XCOM 2 ofrece una experiencia desafiante y gratificante para los aficionados a la estrategia.",
-    "imageUrl": "../img/XCOM.jpg",
+    "imageUrl": "../img/XCOM.jpeg",
     "facts": {
       "category": "Estrategia",
       "yearOfCreation": "2016",
@@ -319,7 +319,7 @@ export default [
     "name": "StarCraft II",
     "shortDescription": "Estrategia en tiempo real espacial.",
     "description": "StarCraft II es un juego de estrategia en tiempo real desarrollado por Blizzard Entertainment. Ambientado en un universo de ciencia ficción, sigue la lucha entre tres razas: Terran, Zerg y Protoss. El juego se divide en tres expansiones, cada una centrada en una raza diferente. Los jugadores deben recolectar recursos, construir bases y comandar ejércitos para derrotar a sus oponentes. Con una jugabilidad rápida y competitiva, StarCraft II ha sido un pilar en la escena de los eSports. Su profundo equilibrio estratégico y su vibrante comunidad lo han mantenido relevante y popular desde su lanzamiento.",
-    "imageUrl": "../img/STAR.webp",
+    "imageUrl": "../img/STAR.jpeg",
     "facts": {
       "category": "Estrategia",
       "yearOfCreation": "2010",
@@ -349,7 +349,7 @@ export default [
     "name": "Fire Emblem: Three Houses",
     "shortDescription": "Estrategia táctica y narrativa.",
     "description": "Fire Emblem: Three Houses es un juego de rol táctico desarrollado por Intelligent Systems y Koei Tecmo. Ambientado en el continente de Fódlan, los jugadores asumen el rol de un profesor en la Academia de Oficiales, donde deben entrenar a estudiantes en combate y tomar decisiones estratégicas en batallas por turnos. La narrativa se centra en tres casas nobles, cada una con su propia historia y personajes únicos. Las elecciones del jugador afectan el desarrollo de la trama. El juego combina elementos de simulación social con una jugabilidad táctica profunda, ofreciendo una experiencia rica y envolvente.",
-    "imageUrl": "../img/EMBLEM.webp",
+    "imageUrl": "../img/EMBLEM.jpeg",
     "facts": {
       "category": "Estrategia",
       "yearOfCreation": "2019",
