@@ -35,3 +35,44 @@ li h3 {
     text-align: center;
 }
 
+.contenedor {
+        display: flex;
+        flex-direction: row;
+        width: 100%; 
+}
+
+
+.filtros {
+    height: 200px;
+    background-color:gainsboro;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 2rem;
+    margin-left: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    position: relative;
+}
+
+label {
+    padding: 1px;
+}
+
+.limpiar-filtros {
+  position: absolute; /* posiciona 'absolute' el botón */
+  bottom: 10px; /* pone el botón a 10px del bottom */
+  left: 50%; /* lo centra horizontalmente */
+  transform: translate(-50%); 
+  
+
+}
+
+
+
+
+
