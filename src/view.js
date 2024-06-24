@@ -35,12 +35,10 @@ export const renderItems = (data) => {
     li.appendChild(rankingElement);
 
 
-  ul.appendChild(li);
+    ul.appendChild(li);
   });
 
-return ul;
-  
-  return 'example';
+  return ul;
 };
 
 
