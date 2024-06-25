@@ -10,7 +10,7 @@ const datadetarjetas = renderItems(data);
 tarjetadedata.appendChild(datadetarjetas);
 
 // Seleccionar el elemento <select> y añadir un manejador de eventos
-const filterSelect = document.getElementById('filter-select');
+const filterSelect = document.getElementById('filtro-categoria');
 filterSelect.addEventListener('change', (event) => {
   const selectedValue = event.target.value;
 
