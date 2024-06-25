@@ -39,8 +39,6 @@ export const renderItems = (data) => {
   });
 
   return ul;
-  
-  return 'example';
 };
 
 
