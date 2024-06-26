@@ -4,8 +4,8 @@
 export const filterData = (data, filterBy, value) => {
   console.log('Filtrando datos por:', filterBy, value);
 
-  if (value === 'all') {
-    return data; // Si el valor es 'all', retorna todos los datos
+  if (value === 'Seleccionar') {
+    return data; 
   }
 
   // Filtrar los datos
