@@ -66,6 +66,7 @@ function limpiarFiltros() {
   selectAño.selectedIndex = 'Seleccionar';
   selectRanking.selectedIndex = 'Seleccionar';
 
+  tarjetadedata.innerHTML = '';
 
   tarjetadedata.appendChild(datadetarjetas);
 }
