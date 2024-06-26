@@ -5,6 +5,7 @@ import data from './data/dataset.js';
 
 const tarjetadedata = document.querySelector('#tarjeta');
 const datadetarjetas = renderItems(data);
+
 //const tarjeta = document.getElementById(tarjeta);
 
 tarjetadedata.appendChild(datadetarjetas);
@@ -22,3 +23,23 @@ filterSelect.addEventListener('change', (event) => {
   tarjetadedata.innerHTML = '';
   tarjetadedata.appendChild(filteredItems);
 });
+
+
+const selectCategoria = document.getElementById("filtro-categoria");
+const selectAño = document.getElementById("filtro-año");
+const selectRanking = document.getElementById("filtro-ranking");
+const botonLimpiar = document.querySelector('.limpiar-filtros');
+
+function limpiarFiltros() {
+  selectCategoria.selectedIndex = 'Seleccionar';
+  selectAño.selectedIndex = 'Seleccionar';
+  selectRanking.selectedIndex = 'Seleccionar';
+
+  //cómo elimino las opciones filtradas? 
+
+  tarjetadedata.appendChild(datadetarjetas);
+}
+
+botonLimpiar.addEventListener("click", limpiarFiltros);
+
+
