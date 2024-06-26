@@ -3,22 +3,41 @@ import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 
-const tarjetadedata = document.querySelector('#tarjeta');
+const tarjetadedata = document.getElementById('tarjeta');
 const datadetarjetas = renderItems(data);
-//const tarjeta = document.getElementById(tarjeta);
 
 tarjetadedata.appendChild(datadetarjetas);
 
-// Seleccionar el elemento <select> y añadir un manejador de eventos
-const filterSelect = document.getElementById('filtro-categoria');
-filterSelect.addEventListener('change', (event) => {
+const filtroCategoria = document.getElementById('filtro-categoria');
+const filtroAño = document.getElementById('filtro-año');
+const filtroRanking = document.getElementById('filtro-ranking');
+
+filtroCategoria.addEventListener('change', (event) => {
   const selectedValue = event.target.value;
 
-  // Invocar la función filterData con 'category' como filterBy
   const filteredData = filterData(data, 'facts.category', selectedValue);
   const filteredItems = renderItems(filteredData);
 
-  // Limpiar el contenedor antes de agregar los nuevos elementos filtrados
   tarjetadedata.innerHTML = '';
   tarjetadedata.appendChild(filteredItems);
+});
+
+filtroAño.addEventListener('change', (event) => {
+  const selectedValue = event.target.value;
+  
+  const filteredDataAño = filterData(data, 'facts.yearOfCreation', selectedValue);
+  const filteredItemsAño = renderItems(filteredDataAño);
+
+  tarjetadedata.innerHTML = '';
+  tarjetadedata.appendChild(filteredItemsAño);
+});
+
+filtroRanking.addEventListener('change', (event) => {
+  const selectedValue = event.target.value;
+
+  const filteredDataRanking = filterData(data, 'facts.ranking', selectedValue);
+  const filteredItemsRanking = renderItems(filteredDataRanking);
+
+  tarjetadedata.innerHTML = '';
+  tarjetadedata.appendChild(filteredItemsRanking);
 });
