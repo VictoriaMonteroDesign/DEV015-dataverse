@@ -5,7 +5,7 @@ export const filterData = (data, filterBy, value) => {
   console.log('Filtrando datos por:', filterBy, value);
 
   if (value === 'Seleccionar') {
-    return data; 
+    return data;
   }
 
   // Filtrar los datos
