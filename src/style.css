@@ -43,7 +43,7 @@ li h3 {
 
 
 .filtros {
-    height: 200px;
+    height: 400px;
     background-color:gainsboro;
     display: flex;
     flex-direction:column;

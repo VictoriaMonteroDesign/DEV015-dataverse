@@ -36,7 +36,7 @@ function limpiarFiltros() {
   selectRanking.selectedIndex = 'Seleccionar';
 
   //cómo elimino las opciones filtradas? 
-
+  tarjetadedata.innerHTML = '';
   tarjetadedata.appendChild(datadetarjetas);
 }
 

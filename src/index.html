@@ -6,55 +6,76 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <h1>Dataverse</h1>
+    </header>
 
-    <h1>Dataverse</h1>
+    <main>
+      <div class="contenedor">
+        <div class="filtros">
+          <label>Categoría:</label>
+          <select id="filtro-categoria">
+            <option>Seleccionar</option>
+            <option>Acción</option>
+            <option>Aventura</option>
+            <option>Rol (RPG)</option>
+            <option>Estrategia</option>
+          </select>
 
-<div class="contenedor">
-    <div class="filtros">
+          <label>Año:</label>
+          <select id="filtro-año">
+            <option>Seleccionar</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+          </select>
 
-    <label>Categoría:</label>
-    <select id="filtro-categoria">
-      <option>Seleccionar</option>
-      <option>Acción</option>
-      <option>Aventura</option>
-      <option>Rol (RPG)</option>
-      <option>Estrategia</option>
-    </select>
+          <label>Ranking:</label>
+          <select id="filtro-ranking">
+            <option>Seleccionar</option>
+            <option>5.0</option>
+            <option>4.5</option>
+            <option>4.0</option>
+            <option>3.5</option>
+          </select>
 
-    <label>Año:</label>
-    <select id="filtro-año">
-      <option>Seleccionar</option>
-      <option>2010</option>
-      <option>2011</option>
-      <option>2012</option>
-      <option>2013</option>
-      <option>2015</option>
-      <option>2016</option>
-      <option>2017</option>
-      <option>2018</option>
-      <option>2019</option>
-      <option>2020</option>
-    </select>
+          <label>Ordenar por orden alfabético:</label>
+          <select id="ordenar">
+              <option>Seleccionar</option>
+              <option>A</option>
+              <option>C</option>
+              <option>D</option>
+              <option>F</option>
+              <option>G</option>
+              <option>J</option>
+              <option>L</option>
+              <option>M</option>
+              <option>P</option>
+              <option>R</option>
+              <option>S</option>
+              <option>T</option>
+              <option>U</option>
+              <option>X</option>
+          </select> 
 
-    <label>Ranking:</label>
-    <select id="filtro-ranking">
-      <option>Seleccionar</option>
-      <option>5.0</option>
-      <option>4.5</option>
-      <option>4.0</option>
-      <option>3.5</option>
-    </select>
+          <button class="limpiar-filtros">Limpiar filtros</button>
+      </div>
 
-    <button class="limpiar-filtros">Limpiar filtros</button>
-  </div>
+      <div id="tarjeta"></div>
 
-    
+      </div>
 
-
-    <div id="tarjeta"></div>
-
-  </div>
-
+    </main>
+    <footer>
+      <p></p>
+    </footer>
     <script src="main.js" type="module"></script>
   </body>
 </html>
