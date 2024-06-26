@@ -6,22 +6,53 @@ import data from './data/dataset.js';
 const tarjetadedata = document.getElementById('tarjeta');
 const datadetarjetas = renderItems(data);
 
-//const tarjeta = document.getElementById(tarjeta);
-
 tarjetadedata.appendChild(datadetarjetas);
 
 const filtroCategoria = document.getElementById('filtro-categoria');
 const filtroAño = document.getElementById('filtro-año');
 const filtroRanking = document.getElementById('filtro-ranking');
 
-filtroCategoria.addEventListener('change', (event) => {
-  const selectedValue = event.target.value;
+const appliedFilters = {
+  category: 'seleccionar',
+  yearOfCreation: 'seleccionar',
+  ranking: 'seleccionar',
+};
 
-  const filteredData = filterData(data, 'facts.category', selectedValue);
+const applyFilters = () => {
+  let filteredData = data;
+
+  if (appliedFilters.category !== 'seleccionar') {
+    filteredData = filterData(filteredData, 'facts.category', appliedFilters.category);
+  }
+
+  if (appliedFilters.yearOfCreation !== 'seleccionar') {
+    filteredData = filterData(filteredData, 'facts.yearOfCreation', appliedFilters.yearOfCreation);
+  }
+
+  if (appliedFilters.ranking !== 'seleccionar') {
+    filteredData = filterData(filteredData, 'facts.ranking', appliedFilters.ranking);
+  }
+
   const filteredItems = renderItems(filteredData);
-
   tarjetadedata.innerHTML = '';
   tarjetadedata.appendChild(filteredItems);
+};
+
+applyFilters();
+
+filtroCategoria.addEventListener('change', (event) => {
+  appliedFilters.category = event.target.value;
+  applyFilters();
+});
+
+filtroAño.addEventListener('change', (event) => {
+  appliedFilters.yearOfCreation = event.target.value;
+  applyFilters();
+});
+
+filtroRanking.addEventListener('change', (event) => {
+  appliedFilters.ranking = event.target.value;
+  applyFilters();
 });
 
 
@@ -35,7 +66,6 @@ function limpiarFiltros() {
   selectAño.selectedIndex = 'Seleccionar';
   selectRanking.selectedIndex = 'Seleccionar';
 
-  //cómo elimino las opciones filtradas? 
 
   tarjetadedata.appendChild(datadetarjetas);
 }
@@ -43,24 +73,4 @@ function limpiarFiltros() {
 botonLimpiar.addEventListener("click", limpiarFiltros);
 
 
-
-filtroAño.addEventListener('change', (event) => {
-  const selectedValue = event.target.value;
-  
-  const filteredDataAño = filterData(data, 'facts.yearOfCreation', selectedValue);
-  const filteredItemsAño = renderItems(filteredDataAño);
-
-  tarjetadedata.innerHTML = '';
-  tarjetadedata.appendChild(filteredItemsAño);
-});
-
-filtroRanking.addEventListener('change', (event) => {
-  const selectedValue = event.target.value;
-
-  const filteredDataRanking = filterData(data, 'facts.ranking', selectedValue);
-  const filteredItemsRanking = renderItems(filteredDataRanking);
-
-  tarjetadedata.innerHTML = '';
-  tarjetadedata.appendChild(filteredItemsRanking);
-});
 
