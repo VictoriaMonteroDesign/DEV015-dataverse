@@ -8,7 +8,6 @@ export const filterData = (data, filterBy, value) => {
     return data;
   }
 
-  // Filtrar los datos
   const filteredData = data.filter(item => {
     const keys = filterBy.split('.');
     let filteredItem = item;
@@ -22,3 +21,14 @@ export const filterData = (data, filterBy, value) => {
 
   return filteredData;
 };
+
+
+/*
+export const sortData = (data, sortBy, sortOrder) => {
+  console.log('ordenar:', sortBy, sortOrder);
+
+  const sortedData = data.sort();
+
+  return sortedData
+
+}*/
