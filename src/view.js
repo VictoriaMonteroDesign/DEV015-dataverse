@@ -1,5 +1,5 @@
 export const renderItems = (data) => {
-  console.log(data)
+  //console.log(data)
   // Aquí comienza tu código y puedes retornar lo que tu necesites
   const ul = document.createElement("ul");
   data.forEach(item => {
