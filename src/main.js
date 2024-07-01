@@ -1,5 +1,5 @@
 import { filterData } from './dataFunctions.js';
-//import { sortData } from './dataFunctions.js';
+import { ordenarABC } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
@@ -12,11 +12,13 @@ tarjetadedata.appendChild(datadetarjetas);
 const selectCategoria = document.getElementById('filtro-categoria');
 const selectAño = document.getElementById('filtro-año');
 const selectRanking = document.getElementById('filtro-ranking');
+const selectOrdenar = document.getElementById('ordenar');
 
 let appliedFilters = {
   category: 'seleccionar',
   yearOfCreation: 'seleccionar',
   ranking: 'seleccionar',
+  orden: 'seleccionar',
 };
 
 const applyFilters = () => {
@@ -32,6 +34,10 @@ const applyFilters = () => {
 
   if (appliedFilters.ranking !== 'seleccionar') {
     filteredData = filterData(filteredData, 'facts.ranking', appliedFilters.ranking);
+  }
+
+  if (appliedFilters.orden !== 'seleccionar') {
+    filteredData = ordenarABC(filteredData, appliedFilters.orden);
   }
   tarjetadedata.innerHTML = '';
 
@@ -83,6 +89,11 @@ function limpiarFiltros() {
 
 botonLimpiar.addEventListener("click", limpiarFiltros);
 
+selectOrdenar.addEventListener('change', (event) => {
+  appliedFilters.orden = event.target.value;
+  applyFilters();
+});
+
 /*
 const selectOrden = document.getElementById("ordenar");
 
@@ -95,7 +106,7 @@ ordenAlfabetico.addEventListener("change", (event)=>{
   tarjetadedata.appendChild(ascOrdenTarjetas);
 
 });
-*/
+
 // const ordenData = (data);
 // ordenData.sort(function (a, b) {
 //   if (a.id > b.id) {
@@ -120,10 +131,12 @@ const ordenarABC = (data, orden) => {
 
 const selectOrdenar = document.getElementById('ordenar');
 selectOrdenar.addEventListener('change', (event) => {
+  appliedFilters.orden = event.target.value;
   const ordenSeleccionado = event.target.value;
   const dataOrdenada = ordenarABC(data, ordenSeleccionado);
   const dataContainer = document.getElementById('tarjeta');
-  dataContainer.innerHTML= '';
-  dataContainer.appendChild(renderItems(dataOrdenada));
-});
+  tarjetadedata.innerHTML= '';
+  tarjetadedata.appendChild(renderItems(dataOrdenada));
+  applyFilters();
+});*/
 
