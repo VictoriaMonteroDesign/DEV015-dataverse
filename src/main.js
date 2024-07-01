@@ -68,11 +68,13 @@ function limpiarFiltros() {
   selectCategoria.selectedIndex = 'Seleccionar';
   selectAño.selectedIndex = 'Seleccionar';
   selectRanking.selectedIndex = 'Seleccionar';
+  selectOrdenar.selectedIndex = 'Seleccionar';
 
   appliedFilters = {
     category: 'seleccionar',
     yearOfCreation: 'seleccionar',
     ranking: 'seleccionar',
+    orden: 'seleccionar',
   };
   tarjetadedata.innerHTML = '';
 
@@ -94,14 +96,34 @@ ordenAlfabetico.addEventListener("change", (event)=>{
 
 });
 */
-const ordenData = (data);
-ordenData.sort(function (a, b) {
-  if (a.id > b.id) {
-    return 1;
-  }
-  if (a.id < b.id) {
-    return -1;
-  }
-  return 0;
+// const ordenData = (data);
+// ordenData.sort(function (a, b) {
+//   if (a.id > b.id) {
+//     return 1;
+//   }
+//   if (a.id < b.id) {
+//     return -1;
+//   }
+//   return 0;
+// });
+
+const ordenarABC = (data, orden) => {
+  return data.sort((a, b) => {
+    if (orden === 'Ascendente') {
+      return a.name.localeCompare(b.name);
+    } else if (orden === 'Descendente') {
+      return b.name.localeCompare(a.name);
+    }
+    return 0;
+  })
+};
+
+const selectOrdenar = document.getElementById('ordenar');
+selectOrdenar.addEventListener('change', (event) => {
+  const ordenSeleccionado = event.target.value;
+  const dataOrdenada = ordenarABC(data, ordenSeleccionado);
+  const dataContainer = document.getElementById('tarjeta');
+  dataContainer.innerHTML= '';
+  dataContainer.appendChild(renderItems(dataOrdenada));
 });
-console.log(ordenData);
+
