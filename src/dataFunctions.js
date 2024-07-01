@@ -22,6 +22,16 @@ export const filterData = (data, filterBy, value) => {
   return filteredData;
 };
 
+export const ordenarABC = (data, orden) => {
+  return data.sort((a, b) => {
+    if (orden === 'Ascendente') {
+      return a.name.localeCompare(b.name);
+    } else if (orden === 'Descendente') {
+      return b.name.localeCompare(a.name);
+    }
+    return 0;
+  })
+};
 
 /*
 export const sortData = (data, sortBy, sortOrder) => {
