@@ -18,13 +18,13 @@ export const renderItems = (data) => {
     descriptionElement.textContent = item.description;
 
     const categoryElement = document.createElement('p');
-    categoryElement.textContent = `Categoría: ${item.facts.category}`;
+    categoryElement.innerHTML = `<strong class="bold-text">Categoría:</strong> ${item.facts.category}`;
 
     const yearOfCreationElement = document.createElement('p');
-    yearOfCreationElement.textContent = `Año de Creación: ${item.facts.yearOfCreation}`;
+    yearOfCreationElement.innerHTML = `<strong class="bold-text">Año de Creación:</strong> ${item.facts.yearOfCreation}`;
 
     const rankingElement = document.createElement('p');
-    rankingElement.textContent = `Calificación: ${item.facts.ranking}`;
+    rankingElement.innerHTML = `<strong class="bold-text">Calificación:</strong> ${item.facts.ranking}`;
 
     li.appendChild(nameElement);
     li.appendChild(shortDescriptionElement);

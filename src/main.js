@@ -43,7 +43,7 @@ const applyFilters = () => {
   tarjetadedata.innerHTML = '';
 
   if (filteredData.length === 0) {
-    const noResultsMessage = document.createElement('h4');
+    const noResultsMessage = document.createElement('h3');
     noResultsMessage.textContent = 'No se encontraron coincidencias';
     tarjetadedata.appendChild(noResultsMessage);
 
