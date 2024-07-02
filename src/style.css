@@ -22,24 +22,35 @@ ul {
 
 li {
     justify-content: center;
-    border: 1px solid;
-    border-radius: 5px;
+    border: 1px;
+    border-style: dashed;
+    border-color:#F428F3;
+    border-radius: 15px;
     overflow: hidden;
     width: 300px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:lightgray;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 li img {
     width: 300px;
     height: auto;
+    border-radius: 15px;
 }
 
 li h3 {
     text-align: center;
+    color:#DFDEE0;
+    font-size: 19px;
+}
+
+li p {
+    color: #D1D1D3; 
+    font-size: 14px;
+    text-align: justify;
 }
 
 .contenedor {
@@ -51,7 +62,7 @@ li h3 {
 
 .filtros {
     height: 400px;
-    background-color:gainsboro;
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction:column;
     flex-wrap: wrap;
@@ -68,17 +79,31 @@ li h3 {
 
 label {
     padding: 1px;
+    color: #D1D1D3;
 }
 
 .limpiar-filtros {
+    width: 55%;
+    height: 25px;
   position: absolute; /* posiciona 'absolute' el botón */
   bottom: 10px; /* pone el botón a 10px del bottom */
   left: 50%; /* lo centra horizontalmente */
   transform: translate(-50%); 
-  
-
+  background-color: black;
+  color:#DFDEE0;
+  border: solid #DFDEE0 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
 }
 
+select {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #D1D1D3;
+    border: solid #F428F3 1px;
+    border-radius: 5px;
+    height: 20px;
+}
 
 
 

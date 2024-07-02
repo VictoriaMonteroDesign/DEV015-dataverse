@@ -28,6 +28,7 @@ const applyFilters = () => {
     filteredData = filterData(filteredData, 'facts.category', appliedFilters.category);
   }
 
+
   if (appliedFilters.yearOfCreation !== 'seleccionar') {
     filteredData = filterData(filteredData, 'facts.yearOfCreation', appliedFilters.yearOfCreation);
   }
@@ -106,7 +107,7 @@ ordenAlfabetico.addEventListener("change", (event)=>{
   tarjetadedata.appendChild(ascOrdenTarjetas);
 
 });
-
+*/
 // const ordenData = (data);
 // ordenData.sort(function (a, b) {
 //   if (a.id > b.id) {
@@ -118,25 +119,23 @@ ordenAlfabetico.addEventListener("change", (event)=>{
 //   return 0;
 // });
 
-const ordenarABC = (data, orden) => {
-  return data.sort((a, b) => {
-    if (orden === 'Ascendente') {
-      return a.name.localeCompare(b.name);
-    } else if (orden === 'Descendente') {
-      return b.name.localeCompare(a.name);
-    }
-    return 0;
-  })
-};
+// const ordenarABC = (data, orden) => {
+//   return data.sort((a, b) => {
+//     if (orden === 'Ascendente') {
+//       return a.name.localeCompare(b.name);
+//     } else if (orden === 'Descendente') {
+//       return b.name.localeCompare(a.name);
+//     }
+//     return 0;
+//   })
+// };
 
-const selectOrdenar = document.getElementById('ordenar');
-selectOrdenar.addEventListener('change', (event) => {
-  appliedFilters.orden = event.target.value;
-  const ordenSeleccionado = event.target.value;
-  const dataOrdenada = ordenarABC(data, ordenSeleccionado);
-  const dataContainer = document.getElementById('tarjeta');
-  tarjetadedata.innerHTML= '';
-  tarjetadedata.appendChild(renderItems(dataOrdenada));
-  applyFilters();
-});*/
+// const selectOrdenar = document.getElementById('ordenar');
+// selectOrdenar.addEventListener('change', (event) => {
+//   const ordenSeleccionado = event.target.value;
+//   const dataOrdenada = ordenarABC(data, ordenSeleccionado);
+//   const dataContainer = document.getElementById('tarjeta');
+//   dataContainer.innerHTML= '';
+//   dataContainer.appendChild(renderItems(dataOrdenada));
+// });
 
