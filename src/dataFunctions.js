@@ -33,12 +33,3 @@ export const ordenarABC = (data, orden) => {
   })
 };
 
-/*
-export const sortData = (data, sortBy, sortOrder) => {
-  console.log('ordenar:', sortBy, sortOrder);
-
-  const sortedData = data.sort();
-
-  return sortedData
-
-}*/
