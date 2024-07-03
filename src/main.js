@@ -4,15 +4,15 @@ import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 
-const tarjetadedata = document.getElementById('tarjeta');
+const tarjetadedata = document.querySelector('#tarjeta');
 const datadetarjetas = renderItems(data);
 
 tarjetadedata.appendChild(datadetarjetas);
 
-const selectCategoria = document.getElementById('filtro-categoria');
-const selectAño = document.getElementById('filtro-año');
-const selectRanking = document.getElementById('filtro-ranking');
-const selectOrdenar = document.getElementById('ordenar');
+const selectCategoria = document.querySelector('#filtro-categoria');
+const selectAño = document.querySelector('#filtro-año');
+const selectRanking = document.querySelector('#filtro-ranking');
+const selectOrdenar = document.querySelector('#ordenar');
 
 let appliedFilters = {
   category: 'seleccionar',
@@ -70,6 +70,12 @@ selectRanking.addEventListener('change', (event) => {
   applyFilters();
 });
 
+selectOrdenar.addEventListener('change', (event) => {
+  appliedFilters.orden = event.target.value;
+  applyFilters();
+});
+
+
 const botonLimpiar = document.querySelector('.limpiar-filtros');
 function limpiarFiltros() {
   selectCategoria.selectedIndex = 'Seleccionar';
@@ -89,53 +95,4 @@ function limpiarFiltros() {
 }
 
 botonLimpiar.addEventListener("click", limpiarFiltros);
-
-selectOrdenar.addEventListener('change', (event) => {
-  appliedFilters.orden = event.target.value;
-  applyFilters();
-});
-
-/*
-const selectOrden = document.getElementById("ordenar");
-
-ordenAlfabetico.addEventListener("change", (event)=>{
-  const ordenTarjetas = event.target.value;
-  const ascOrden = sortData(data, sortBy: ascendente, ordenTarjetas);
-  const ascOrdenTarjetas = renderItems(ascOrden);
-
-  tarjetadedata.innerHTML = '';
-  tarjetadedata.appendChild(ascOrdenTarjetas);
-
-});
-*/
-// const ordenData = (data);
-// ordenData.sort(function (a, b) {
-//   if (a.id > b.id) {
-//     return 1;
-//   }
-//   if (a.id < b.id) {
-//     return -1;
-//   }
-//   return 0;
-// });
-
-// const ordenarABC = (data, orden) => {
-//   return data.sort((a, b) => {
-//     if (orden === 'Ascendente') {
-//       return a.name.localeCompare(b.name);
-//     } else if (orden === 'Descendente') {
-//       return b.name.localeCompare(a.name);
-//     }
-//     return 0;
-//   })
-// };
-
-// const selectOrdenar = document.getElementById('ordenar');
-// selectOrdenar.addEventListener('change', (event) => {
-//   const ordenSeleccionado = event.target.value;
-//   const dataOrdenada = ordenarABC(data, ordenSeleccionado);
-//   const dataContainer = document.getElementById('tarjeta');
-//   dataContainer.innerHTML= '';
-//   dataContainer.appendChild(renderItems(dataOrdenada));
-// });
 
