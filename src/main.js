@@ -118,13 +118,3 @@ rankingAv2016.textContent = `${rankingPromedio2016.toFixed(1)}`;
 
 
 
-
-
-/*const analisisDeData = computeStats(data);
-function computeStats (){
-  return selectRanking.reduce
-}
-
-console.log(selectRanking.reduce);*/
-
-
