@@ -4,7 +4,7 @@ import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 
-const tarjetadedata = document.querySelector('#tarjeta');
+const tarjetadedata = document.querySelector('#root');
 const datadetarjetas = renderItems(data);
 
 tarjetadedata.appendChild(datadetarjetas);
@@ -96,3 +96,28 @@ function limpiarFiltros() {
 
 botonLimpiar.addEventListener("click", limpiarFiltros);
 
+
+
+const calcularRankingPromedio = (data, year) => {
+  // Filtrar los datos para obtener solo los juegos del año especificado
+  const juegosDelAño = data.filter(item => item.facts.yearOfCreation === year);
+
+  // Usar reduce para sumar los rankings
+  const sumaDeRankings = juegosDelAño.reduce((sum, item) => sum + parseFloat(item.facts.ranking), 0);
+
+  // Calcular el promedio
+  const rankingPromedio = sumaDeRankings / juegosDelAño.length;
+
+  return rankingPromedio;
+};
+
+// Ejemplo de uso con el año 2016
+const rankingPromedio2016 = calcularRankingPromedio(data, "2016");
+console.log(`El ranking promedio de los juegos del año 2016 es: ${rankingPromedio2016.toFixed(1)}`);
+
+/*const analisisDeData = computeStats(data);
+function computeStats (){
+  return selectRanking.reduce
+}
+
+console.log(selectRanking.reduce);*/

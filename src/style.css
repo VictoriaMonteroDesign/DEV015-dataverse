@@ -36,10 +36,10 @@ h1 {
   }
 
   .header-logo {
-    width: 10rem;
+    width: 11rem;
+    margin-top: 1%;
     margin-right: 5%;
-    margin-left: 1%;
-    padding: 1rem;
+    margin-left: 2%;
   }  
 
 h3{
@@ -147,7 +147,3 @@ select {
     border-radius: 5px;
     height: 20px;
 }
-
-
-
-
