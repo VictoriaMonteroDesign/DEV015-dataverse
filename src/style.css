@@ -147,3 +147,10 @@ select {
     border-radius: 5px;
     height: 20px;
 }
+
+#analisis {
+    color: white;
+    border-color: #F428F3;
+    border-style: dashed;
+    border-radius: 8px;
+}

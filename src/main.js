@@ -115,9 +115,3 @@ const calcularRankingPromedio = (data, year) => {
 const rankingPromedio2016 = calcularRankingPromedio(data, "2016");
 console.log(`El ranking promedio de los juegos del año 2016 es: ${rankingPromedio2016.toFixed(1)}`);
 
-/*const analisisDeData = computeStats(data);
-function computeStats (){
-  return selectRanking.reduce
-}
-
-console.log(selectRanking.reduce);*/
