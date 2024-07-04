@@ -113,5 +113,8 @@ const calcularRankingPromedio = (data, year) => {
 
 // Ejemplo de uso con el año 2016
 const rankingPromedio2016 = calcularRankingPromedio(data, "2016");
-console.log(`El ranking promedio de los juegos del año 2016 es: ${rankingPromedio2016.toFixed(1)}`);
+const rankingAv2016 = document.getElementById('rankingPromedio2016');
+rankingAv2016.textContent = `${rankingPromedio2016.toFixed(1)}`;
+
+
 
