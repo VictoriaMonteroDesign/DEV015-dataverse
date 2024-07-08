@@ -113,8 +113,44 @@ const calcularRankingPromedio = (data, year) => {
 
 // Ejemplo de uso con el año 2016
 const rankingPromedio2016 = calcularRankingPromedio(data, "2016");
-const rankingAv2016 = document.getElementById('rankingPromedio2016');
-rankingAv2016.textContent = `${rankingPromedio2016.toFixed(1)}`;
+const rankingAv2016 = document.getElementById('analisis');
+rankingAv2016.textContent = `El promedio de los ranking del 2016 es ${rankingPromedio2016.toFixed(1)}`;
 
+
+
+//género mejor rankeado 
+
+function generoMejorRankeado(data) {
+  const resultado = data.reduce((acc, juego) => {
+    const categoria = juego.facts.category;
+    const ranking = parseFloat(juego.facts.ranking);
+
+    if (!acc[categoria]) {
+      acc[categoria] = { totalRanking: 0, count: 0 };
+    }
+
+    acc[categoria].totalRanking += ranking;
+    acc[categoria].count += 1;
+
+    return acc;
+  }, {});
+
+  let mejorCategoria = null;
+  let mejorPromedio = 0;
+
+  for (const categoria in resultado) {
+    const promedio = resultado[categoria].totalRanking / resultado[categoria].count;
+    if (promedio > mejorPromedio) {
+      mejorPromedio = promedio;
+      mejorCategoria = categoria;
+    }
+  }
+
+  return mejorCategoria;
+}
+
+const mejorRanking = generoMejorRankeado(data);
+const mejorGenero = document.getElementById('analisis2');
+mejorGenero.textContent = `${(mejorRanking)} es el género con mejor ranking`;
 
 

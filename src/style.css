@@ -154,3 +154,10 @@ select {
     border-style: dashed;
     border-radius: 8px;
 }
+
+#analisis2 {
+    color: white;
+    border-color: #F428F3;
+    border-style: dashed;
+    border-radius: 8px;
+}
