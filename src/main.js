@@ -99,19 +99,13 @@ botonLimpiar.addEventListener("click", limpiarFiltros);
 
 
 const calcularRankingPromedio = (data, year) => {
-  // Filtrar los datos para obtener solo los juegos del año especificado
+
   const juegosDelAño = data.filter(item => item.facts.yearOfCreation === year);
-
-  // Usar reduce para sumar los rankings
   const sumaDeRankings = juegosDelAño.reduce((sum, item) => sum + parseFloat(item.facts.ranking), 0);
-
-  // Calcular el promedio
   const rankingPromedio = sumaDeRankings / juegosDelAño.length;
-
   return rankingPromedio;
 };
 
-// Ejemplo de uso con el año 2016
 const rankingPromedio2016 = calcularRankingPromedio(data, "2016");
 const rankingAv2016 = document.getElementById('analisis');
 rankingAv2016.textContent = `El promedio de los ranking del 2016 es ${rankingPromedio2016.toFixed(1)}`;
