@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-    <div class="header-container">
-        <img src="../img/IMAGEN HEADER.png" class="header-logo">
-        <h1>Game Time</h1>
-    </div>
-    </header>
 
-    <main>
-      <div class="contenedor">
-        <div>
+<head>
+  <meta charset="utf-8">
+  <title>Dataverse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <img src="../img/IMAGEN HEADER.png" class="header-logo">
+      <h1>Game Time</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="contenedor">
+      <div>
         <div class="filtros">
           <label>Categoría:</label>
           <select id="filtro-categoria" name="select">
@@ -52,31 +54,31 @@
 
           <label>Orden alfabético:</label>
           <select id="ordenar">
-              <option>Seleccionar</option>
-              <option>Ascendente</option>
-              <option>Descendente</option>
+            <option>Seleccionar</option>
+            <option>Ascendente</option>
+            <option>Descendente</option>
 
-          </select> 
+          </select>
 
           <button class="limpiar-filtros">Limpiar</button>
-      </div>
-      <div id="analisis"><label>Analisis</label></div>
-    </div>
+        </div>
 
-      <div id="ranking-por-año">
-        <h2>Ranking Promedio 2016:</h2>
-        <p id="rankingPromedio2016"></p>
+        <div id="ranking-por-año">
+          <p>Ranking Promedio</p>
+          <p><b>2016</b></p>
+          <h2 id="rankingPromedio2016"></h2>
+        </div>
       </div>
 
       <div id="root"></div>
+    </div>
 
-      </div>
 
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
 
-    </main>
-    <footer>
-      <p></p>
-    </footer>
-    <script src="main.js" type="module"></script>
-  </body>
 </html>
