@@ -161,6 +161,12 @@ select {
     white-space: nowrap;
 }
 
+#analisis2 {
+    color: white;
+    border-color: #F428F3;
+    border-style: dashed;
+    border-radius: 8px;
+
 h2 {
     font-size: 50px;
     color: #DFDEE0;
@@ -176,4 +182,5 @@ h2 {
 #ranking-por-año p {
     margin: 0;
     padding: 0;
+
 }
