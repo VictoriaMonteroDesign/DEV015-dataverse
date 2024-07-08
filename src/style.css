@@ -148,6 +148,7 @@ select {
     height: 20px;
 }
 
+#mejor-categoria,
 #ranking-por-año {
     background-color: rgba(0, 0, 0, 0.8);
     color: #DFDEE0;
@@ -161,14 +162,8 @@ select {
     white-space: nowrap;
 }
 
-#analisis2 {
-    color: white;
-    border-color: #F428F3;
-    border-style: dashed;
-    border-radius: 8px;
-
 h2 {
-    font-size: 50px;
+    font-size: 45px;
     color: #DFDEE0;
     text-shadow:
     -1px -1px 0 #F428F3,
@@ -179,8 +174,12 @@ h2 {
     padding: 0.5rem;
 }
 
+#mejor-categoria p,
 #ranking-por-año p {
     margin: 0;
     padding: 0;
+}
 
+#mejor-categoria h2 {
+    font-size: 35px;
 }

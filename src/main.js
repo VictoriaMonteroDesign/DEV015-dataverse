@@ -107,8 +107,8 @@ const calcularRankingPromedio = (data, year) => {
 };
 
 const rankingPromedio2016 = calcularRankingPromedio(data, "2016");
-const rankingAv2016 = document.getElementById('analisis');
-rankingAv2016.textContent = `El promedio de los ranking del 2016 es ${rankingPromedio2016.toFixed(1)}`;
+const rankingAv2016 = document.getElementById('rankingPromedio2016');
+rankingAv2016.textContent = `${rankingPromedio2016.toFixed(1)}`;
 
 
 
@@ -144,7 +144,7 @@ function generoMejorRankeado(data) {
 }
 
 const mejorRanking = generoMejorRankeado(data);
-const mejorGenero = document.getElementById('analisis2');
-mejorGenero.textContent = `${(mejorRanking)} es el género con mejor ranking`;
+const mejorGenero = document.getElementById('mejorRanking');
+mejorGenero.textContent = `${(mejorRanking)}`;
 
 
