@@ -5,14 +5,17 @@ console.log(fakeData);
 
 describe('filter', () => {
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it('Filter debe retornar 2 cuando aplicamos un filtro de ranking de 4.5', () => {
+    expect(filterData(fakeData, 'facts.ranking', '4.5').length).toBe(2);
+  });
+  it('Filter debe retornar la misma data cuando el valor es Seleccionar', () => {
+    expect(filterData(fakeData, 'facts.ranking', 'Seleccionar')).toEqual(fakeData);
   });
 });
 
-describe('anotherExample', () => {
+describe('sort', () => {
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it('Sort debe retornar la misma data cuando el valor es Seleccionar', () => {
+    expect(ordenarABC(fakeData, 'Seleccionar')).toEqual(fakeData);
   });
 });
