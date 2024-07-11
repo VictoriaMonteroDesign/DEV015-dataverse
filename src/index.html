@@ -10,14 +10,21 @@
 <body>
   <header>
     <div class="header-container">
-      <img src="../img/IMAGEN HEADER.png" class="header-logo">
+      <div class="header-left">
+        <img src="../img/IMAGEN HEADER.png" class="header-logo">
+        <div class=menu-hamburguesa>
+          <h4>&#9776;</h4>
+        </div>
+      </div>
+    
       <h1>Game Time</h1>
+    
     </div>
   </header>
 
   <main>
     <div class="contenedor">
-      <div>
+      <div class="barra-lateral">      
         <div class="filtros">
           <label>Categoría:</label>
           <select id="filtro-categoria" name="select">
@@ -60,7 +67,7 @@
 
           </select>
 
-          <button class="limpiar-filtros">Limpiar</button>
+          <button class="limpiar-filtros"><b>Limpiar</b></button>
 
         </div>
 
@@ -75,9 +82,8 @@
           <p><b>Categoria</b></p>
           <h2 id="mejorRanking"></h2>
         </div>
-
+        
       </div>
-
 
       <div id="root"></div>
     </div>
@@ -85,7 +91,9 @@
 
   </main>
   <footer>
-    <p></p>
+    <div id="footer">
+      <p>Victoria Montero | Alejandra García</p>
+    </div>
   </footer>
   <script src="main.js" type="module"></script>
 </body>
