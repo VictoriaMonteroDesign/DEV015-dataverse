@@ -1,9 +1,9 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
+import { filterData, ordenarABC } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
 console.log(fakeData);
 
-describe('example', () => {
+describe('filter', () => {
 
   it('returns `example`', () => {
     expect(example()).toBe('example');
