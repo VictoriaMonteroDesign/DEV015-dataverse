@@ -71,10 +71,10 @@ Cuando hayan terminado un juego y quieran empezar uno nuevo y quieran alguna rec
 ## 4. Prototipado
 
 Prototipo en baja fidelidad
-<img src="../img/Prototipo en Baja.PNG>
+<img src="src/img/Prototipo en Baja.PNG">
 
 Prototipo en alta fidelidad
-<img src="../img/Prototipo en Alta.PNG>
+<img src="src/img/Prototipo en Alta.PNG">
 
 ## 5. Prompting Inteligencia Artificial
 
