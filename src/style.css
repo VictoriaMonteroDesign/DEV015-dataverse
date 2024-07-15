@@ -36,11 +36,13 @@ h1 {
     display: flex;
     align-items: center;
 }
+
 .header-left {
     margin-top: 1%;
     margin-right: 5.9%;
     margin-left: 1.4%;
 }
+
 .menu-hamburguesa {
     display: none;
 }
@@ -173,10 +175,10 @@ h2 {
     font-size: 2.8rem;
     color: #DFDEE0;
     text-shadow:
-    -1px -1px 0 #F428F3,
-    1px -1px 0 #F428F3,
-    -1px 1px 0 #F428F3,
-    1px 1px 0 #F428F3;
+        -1px -1px 0 #F428F3,
+        1px -1px 0 #F428F3,
+        -1px 1px 0 #F428F3,
+        1px 1px 0 #F428F3;
     margin: 0;
     padding: 0.5rem;
 }
@@ -191,15 +193,16 @@ h2 {
     font-size: 2.1rem;
 }
 
-#footer{
+#footer {
     background-color: rgba(255, 255, 255, 0.2);
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    
+
 }
-#footer p{
+
+#footer p {
     font-size: 1rem;
     color: #D1D1D3;
 }
@@ -220,10 +223,11 @@ h4 {
     cursor: pointer;
 }
 
-@media (max-width:1000px){
-    .barra-lateral{
+@media (max-width:1000px) {
+    .barra-lateral {
         display: none;
     }
+
     .menu-hamburguesa {
         display: flex;
         border-color: #F428F3;
@@ -235,23 +239,26 @@ h4 {
         padding-right: 1rem;
         margin: 0.8rem;
     }
-    .header-left{
+
+    .header-left {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-right: 3%;
     }
-    .header-logo{
+
+    .header-logo {
         width: 5rem;
     }
 
     .barra-lateral-desplegada {
-        display:block;
+        display: block;
     }
-
+    #ranking-por-año {
+        display: none;
+    }    
+    #mejor-categoria {
+        display: none;
+    }
 }
-
-
-
-
