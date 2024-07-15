@@ -1,7 +1,7 @@
 import { filterData, ordenarABC } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
-console.log(fakeData);
+// console.log(fakeData);
 
 describe('filter', () => {
 
@@ -18,10 +18,12 @@ describe('sort', () => {
   it('Sort debe retornar la misma data cuando el valor es Seleccionar', () => {
     expect(ordenarABC(fakeData, 'Seleccionar')).toEqual(fakeData);
   });
+
   it('Sort debe retornar la data ordenada a-z cuando el valor seleccionado es Ascendente', () => {
     expect(ordenarABC(fakeData, 'Ascendente')).toEqual(fakeData.sort(function(a, b){return a - b;}));
   });
   it('Sort debe retornar la data ordenada z-a cuando el valor seleccionado es Descendente', () => {
+
     expect(ordenarABC(fakeData, 'Descendente')).toEqual(fakeData.sort(function(a, b){return b - a;}));
   });
 });
