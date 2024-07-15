@@ -147,4 +147,11 @@ const mejorRanking = generoMejorRankeado(data);
 const mejorGenero = document.getElementById('mejorRanking');
 mejorGenero.textContent = `${(mejorRanking)}`;
 
+document.addEventListener('DOMContentLoaded', function(){
+  const menuHamburguesa = document.getElementById('menu-hamburguesa');
+  const barraLateral = document.getElementById('barra-lateral');
 
+  menuHamburguesa.addEventListener('click', function() {
+    barraLateral.classList.toggle('barra-lateral-desplegada');
+  });
+})
