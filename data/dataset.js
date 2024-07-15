@@ -4,7 +4,7 @@ export default [
     "name": "Red Dead Redemption 2",
     "shortDescription": "Western épico de mundo abierto.",
     "description": "Red Dead Redemption 2 es un juego de acción y aventura desarrollado por Rockstar Games. Ambientado en 1899, sigue la historia de Arthur Morgan, un forajido miembro de la banda de Dutch van der Linde, mientras lidian con la desaparición del viejo oeste. El juego presenta un vasto mundo abierto lleno de vida, detallado y dinámico, con una narrativa profunda y emotiva. Los jugadores pueden cazar, pescar, montar a caballo, y explorar diversas actividades, mientras se enfrentan a dilemas morales que afectan el desenlace de la historia.",
-    "imageUrl": "../img/RDR2.jpeg",
+    "imageUrl": "./img/RDR2.jpeg",
     "facts": {
       "category": "Acción",
       "yearOfCreation": "2018",
@@ -19,7 +19,7 @@ export default [
     "name": "The Last of Us Part II",
     "shortDescription": "Secuela dramática y emotiva.",
     "description": "The Last of Us Part II es una secuela del aclamado juego de acción y aventura de Naughty Dog. Ambientado en un mundo post-apocalíptico, sigue la historia de Ellie, ahora una joven adulta, en su búsqueda de venganza contra aquellos que le han causado dolor. Con gráficos impresionantes, una narrativa intensa y emocional, y mecánicas de juego refinadas, el juego explora temas complejos como el odio, el amor y la redención. Los jugadores deben navegar por un entorno hostil lleno de peligros humanos e infectados, enfrentándose a difíciles decisiones morales.",
-    "imageUrl": "../img/TLOU2.jpeg",
+    "imageUrl": "./img/TLOU2.jpeg",
     "facts": {
       "category": "Acción",
       "yearOfCreation": "2020",
@@ -34,7 +34,7 @@ export default [
     "name": "DOOM Eternal",
     "shortDescription": "Acción frenética de disparos.",
     "description": "DOOM Eternal es un juego de disparos en primera persona desarrollado por id Software. Es la secuela de DOOM (2016) y continúa la saga del DOOM Slayer en su batalla contra las fuerzas infernales que han invadido la Tierra. El juego ofrece una acción frenética, con un arsenal de armas mejoradas, nuevas habilidades de combate y movilidad, y niveles diseñados para mantener a los jugadores en constante movimiento. La banda sonora intensa y los gráficos de alta calidad complementan la experiencia, proporcionando una adrenalina continua a lo largo de su campaña.",
-    "imageUrl": "../img/DOOM.jpeg",
+    "imageUrl": "./img/DOOM.jpeg",
     "facts": {
       "category": "Acción",
       "yearOfCreation": "2020",
@@ -49,7 +49,7 @@ export default [
     "name": "God of War",
     "shortDescription": "Mitología nórdica y acción.",
     "description": "God of War (2018) es un reinicio de la clásica serie de acción y aventura desarrollada por Santa Monica Studio. Este título sigue a Kratos, el dios de la guerra, mientras se embarca en un viaje junto a su hijo Atreus por los reinos de la mitología nórdica. Con una narrativa más madura y emocional, el juego combina combates brutales con la exploración y la resolución de acertijos. Los gráficos impresionantes, la música épica y la profunda relación entre Kratos y Atreus han sido ampliamente elogiados, reinventando la serie de manera exitosa.",
-    "imageUrl": "../img/GOW.jpeg",
+    "imageUrl": "./img/GOW.jpeg",
     "facts": {
       "category": "Acción",
       "yearOfCreation": "2018",
@@ -64,7 +64,7 @@ export default [
     "name": "Marvel's Spider-Man",
     "shortDescription": "Superhéroe en Nueva York.",
     "description": "Marvel's Spider-Man es un juego de acción y aventura desarrollado por Insomniac Games. Los jugadores toman el control de Peter Parker, quien lleva ocho años luchando contra el crimen como Spider-Man. El juego ofrece una experiencia de mundo abierto ambientada en la ciudad de Nueva York, donde los jugadores pueden balancearse entre edificios, combatir a villanos icónicos y realizar misiones secundarias. La narrativa se centra en la vida personal de Peter Parker y sus responsabilidades como Spider-Man, proporcionando una historia emocional y envolvente con combates fluidos y mecánicas de movimiento acrobáticas.",
-    "imageUrl": "../img/SPIDEY.jpeg",
+    "imageUrl": "./img/SPIDEY.jpeg",
     "facts": {
       "category": "Acción",
       "yearOfCreation": "2018",
@@ -79,7 +79,7 @@ export default [
     "name": "Cyberpunk 2077",
     "shortDescription": "Futuro distópico y acción.",
     "description": "Cyberpunk 2077 es un RPG de acción desarrollado por CD Projekt Red, ambientado en el futurista y distópico Night City. Los jugadores asumen el rol de V, un mercenario personalizado, mientras buscan un implante que otorga la inmortalidad. El juego ofrece un vasto mundo abierto lleno de misiones secundarias, personajes diversos y decisiones que afectan la historia. A pesar de su lanzamiento problemático, el juego ha sido elogiado por su narrativa profunda, diseño de mundo y complejidad de sus mecánicas RPG, ofreciendo múltiples formas de abordar misiones y desarrollo de personajes.",
-    "imageUrl": "../img/PUNK.jpeg",
+    "imageUrl": "./img/PUNK.jpeg",
     "facts": {
       "category": "Acción",
       "yearOfCreation": "2020",
@@ -94,7 +94,7 @@ export default [
     "name": "The Legend of Zelda: Breath of the Wild",
     "shortDescription": "Aventura en un mundo abierto.",
     "description": "The Legend of Zelda: Breath of the Wild es un juego de aventura y acción desarrollado por Nintendo. Los jugadores asumen el rol de Link, quien despierta de un largo sueño para descubrir un vasto y abierto mundo de Hyrule en ruinas. El juego ofrece una libertad sin precedentes para explorar, resolver acertijos y enfrentarse a enemigos. La narrativa se revela a través de la exploración y las interacciones con el mundo y sus habitantes. Con su innovador diseño de juego, gráficos hermosos y música evocadora, ha sido aclamado como uno de los mejores videojuegos de todos los tiempos.",
-    "imageUrl": "../img/BOTW.jpeg",
+    "imageUrl": "./img/BOTW.jpeg",
     "facts": {
       "category": "Aventura",
       "yearOfCreation": "2017",
@@ -109,7 +109,7 @@ export default [
     "name": "Uncharted 4: A Thief's End",
     "shortDescription": "Búsqueda de tesoros y aventura.",
     "description": "Uncharted 4: A Thief's End es un juego de acción y aventura desarrollado por Naughty Dog. Sigue a Nathan Drake, ahora retirado, quien es atraído de nuevo al mundo de la caza de tesoros por su hermano desaparecido, Sam. La historia lleva a los jugadores a través de paisajes exóticos, resolviendo acertijos y participando en intensos tiroteos. El juego combina una narrativa cinematográfica con gráficos impresionantes y una jugabilidad fluida. Este título cierra la saga de Drake con una historia emotiva y bien elaborada, siendo considerado uno de los mejores juegos de la serie.",
-    "imageUrl": "../img/UNCHARTED.jpeg",
+    "imageUrl": "./img/UNCHARTED.jpeg",
     "facts": {
       "category": "Aventura",
       "yearOfCreation": "2016",
@@ -124,7 +124,7 @@ export default [
     "name": "Tomb Raider",
     "shortDescription": "Reboot de Lara Croft.",
     "description": "Tomb Raider (2013) es un reinicio de la clásica serie de acción y aventura, desarrollado por Crystal Dynamics. Los jugadores siguen a una joven e inexperta Lara Croft en su primera gran aventura para sobrevivir en una isla misteriosa. El juego combina exploración, combate y resolución de acertijos en entornos peligrosos y exóticos. Lara debe enfrentar enemigos hostiles, descubrir secretos antiguos y desarrollar sus habilidades para convertirse en la heroína que todos conocemos. Con gráficos impresionantes y una narrativa emocionante, este reinicio revitalizó la franquicia de manera exitosa.",
-    "imageUrl": "../img/TOMB.jpeg",
+    "imageUrl": "./img/TOMB.jpeg",
     "facts": {
       "category": "Aventura",
       "yearOfCreation": "2013",
@@ -139,7 +139,7 @@ export default [
     "name": "Journey",
     "shortDescription": "Viaje emocional y artístico.",
     "description": "Journey es un juego de aventura desarrollado por Thatgamecompany. Los jugadores controlan a un viajero encapuchado que atraviesa un vasto desierto hacia una montaña lejana. El juego destaca por su diseño artístico y su emotiva banda sonora, creando una experiencia inmersiva y meditativa. Los jugadores pueden encontrarse con otros viajeros en línea, cooperando de manera anónima para superar obstáculos. Sin diálogo ni texto, Journey utiliza el entorno visual y la música para contar una historia conmovedora sobre la vida, la conexión y el viaje personal, siendo aclamado por su originalidad y belleza.",
-    "imageUrl": "../img/JOURNEY.jpeg",
+    "imageUrl": "./img/JOURNEY.jpeg",
     "facts": {
       "category": "Aventura",
       "yearOfCreation": "2012",
@@ -154,7 +154,7 @@ export default [
     "name": "Firewatch",
     "shortDescription": "Misterio en la naturaleza.",
     "description": "Firewatch es un juego de aventura en primera persona desarrollado por Campo Santo. Ambientado en 1989, los jugadores asumen el rol de Henry, un hombre que ha tomado un trabajo como vigilante de incendios en un parque nacional de Wyoming. A través de una radio, Henry se comunica con su supervisora, Delilah, mientras explora el entorno natural y descubre misterios que afectan su vida y su trabajo. El juego destaca por su narrativa envolvente, paisajes impresionantes y una atmósfera de soledad y descubrimiento.",
-    "imageUrl": "../img/FIREWATCH.jpeg",
+    "imageUrl": "./img/FIREWATCH.jpeg",
     "facts": {
       "category": "Aventura",
       "yearOfCreation": "2016",
@@ -169,7 +169,7 @@ export default [
     "name": "Life is Strange",
     "shortDescription": "Aventura con decisiones impactantes.",
     "description": "Life is Strange es un juego de aventura gráfica episódica desarrollado por Dontnod Entertainment. Sigue la historia de Max Caulfield, una estudiante de fotografía que descubre que puede retroceder en el tiempo. La narrativa se desarrolla a través de las decisiones del jugador, que afectan la historia y las relaciones entre los personajes. Ambientado en la ficticia ciudad de Arcadia Bay, el juego aborda temas como la amistad, el amor, el bullying y la identidad. Con su estilo artístico único y su banda sonora memorable, Life is Strange ha sido aclamado por su profundidad emocional y su narrativa impactante.",
-    "imageUrl": "../img/LIS.jpeg",
+    "imageUrl": "./img/LIS.jpeg",
     "facts": {
       "category": "Aventura",
       "yearOfCreation": "2015",
@@ -184,7 +184,7 @@ export default [
     "name": "The Witcher 3: Wild Hunt",
     "shortDescription": "RPG épico de fantasía.",
     "description": "The Witcher 3: Wild Hunt es un RPG de acción desarrollado por CD Projekt Red. Los jugadores asumen el rol de Geralt de Rivia, un cazador de monstruos en un vasto mundo abierto lleno de misiones, personajes y criaturas. La narrativa principal sigue la búsqueda de Geralt por encontrar a su hija adoptiva, Ciri, mientras enfrenta una amenaza sobrenatural conocida como la Cacería Salvaje. El juego ofrece una historia rica y compleja, decisiones morales que afectan el desenlace, y un combate estratégico. Su mundo detallado, gráficos impresionantes y narrativa profunda lo han convertido en uno de los mejores RPGs.",
-    "imageUrl": "../img/WITCHER.jpeg",
+    "imageUrl": "./img/WITCHER.jpeg",
     "facts": {
       "category": "Rol (RPG)",
       "yearOfCreation": "2015",
@@ -199,7 +199,7 @@ export default [
     "name": "Persona 5",
     "shortDescription": "JRPG con estilo y profundidad.",
     "description": "Persona 5 es un JRPG desarrollado por Atlus, que sigue la historia de un grupo de estudiantes de secundaria con habilidades especiales que forman los Phantom Thieves. Los jugadores exploran Tokio durante el día, gestionando actividades cotidianas como asistir a clases y socializar, mientras que por la noche exploran mundos alternos conocidos como Palacios para combatir enemigos y robar los corazones corruptos de los adultos. El juego combina mecánicas de simulación social y combate por turnos, ofreciendo una narrativa profunda y personajes bien desarrollados. Su estilo visual único y banda sonora memorable han sido ampliamente elogiados.",
-    "imageUrl": "../img/PERSONA.jpeg",
+    "imageUrl": "./img/PERSONA.jpeg",
     "facts": {
       "category": "Rol (RPG)",
       "yearOfCreation": "2016",
@@ -214,7 +214,7 @@ export default [
     "name": "Dark Souls III",
     "shortDescription": "RPG desafiante y atmosférico.",
     "description": "Dark Souls III es un RPG de acción desarrollado por FromSoftware. Conocido por su alta dificultad y atmósfera oscura, el juego lleva a los jugadores a un mundo devastado donde deben enfrentarse a enemigos implacables y jefes desafiantes. Los jugadores exploran entornos interconectados, recolectan armas y habilidades, y descubren fragmentos de una narrativa críptica. La jugabilidad se centra en el combate preciso y estratégico, donde cada enfrentamiento puede ser mortal. Dark Souls III ha sido aclamado por su diseño de niveles intrincado, la profundidad de su mundo y la sensación de logro que ofrece a los jugadores.",
-    "imageUrl": "../img/DARK.jpeg",
+    "imageUrl": "./img/DARK.jpeg",
     "facts": {
       "category": "Rol (RPG)",
       "yearOfCreation": "2016",
@@ -229,7 +229,7 @@ export default [
     "name": "Skyrim",
     "shortDescription": "Mundo abierto y exploración.",
     "description": "The Elder Scrolls V: Skyrim es un RPG de mundo abierto desarrollado por Bethesda Game Studios. Los jugadores asumen el rol del Dragonborn, un héroe profetizado con la habilidad de absorber los poderes de los dragones. Ambientado en la provincia de Skyrim, el juego ofrece una libertad sin precedentes para explorar, completar misiones y desarrollar habilidades. Con una narrativa épica, combate variado y un vasto mundo lleno de detalles y secretos, Skyrim ha sido aclamado por su inmersión y rejugabilidad. Los jugadores pueden forjar su propio destino en un mundo lleno de magia, política y criaturas legendarias.",
-    "imageUrl": "../img/SKYRIM.jpeg",
+    "imageUrl": "./img/SKYRIM.jpeg",
     "facts": {
       "category": "Rol (RPG)",
       "yearOfCreation": "2011",
@@ -244,7 +244,7 @@ export default [
     "name": "Divinity: Original Sin 2",
     "shortDescription": "RPG táctico y profundo.",
     "description": "Divinity: Original Sin 2 es un RPG táctico desarrollado por Larian Studios. Los jugadores crean y desarrollan personajes únicos en un mundo de fantasía lleno de magia y misterio. El juego se centra en el combate táctico por turnos, la exploración y la toma de decisiones que afectan la narrativa. Con un sistema de juego cooperativo, los jugadores pueden unirse a otros para enfrentar desafíos y descubrir secretos. La narrativa profunda, la complejidad de las mecánicas de juego y la libertad para abordar situaciones de múltiples maneras han hecho de Divinity: Original Sin 2 un favorito entre los fans.",
-    "imageUrl": "../img/DIVINITY.jpeg",
+    "imageUrl": "./img/DIVINITY.jpeg",
     "facts": {
       "category": "Rol (RPG)",
       "yearOfCreation": "2017",
@@ -259,7 +259,7 @@ export default [
     "name": "Final Fantasy XV",
     "shortDescription": "Aventura épica de rol.",
     "description": "Final Fantasy XV es un RPG de acción desarrollado por Square Enix. Sigue la historia del príncipe Noctis y sus amigos en un viaje épico para recuperar su reino. El juego combina elementos de RPG con un sistema de combate en tiempo real, ofreciendo un vasto mundo abierto para explorar. Los jugadores pueden conducir, acampar, luchar contra criaturas y participar en misiones secundarias. La narrativa se centra en la amistad y el deber, con gráficos impresionantes y una banda sonora emotiva. Final Fantasy XV ha sido elogiado por su historia envolvente, personajes carismáticos y su jugabilidad innovadora.",
-    "imageUrl": "../img/FF.jpeg",
+    "imageUrl": "./img/FF.jpeg",
     "facts": {
       "category": "Rol (RPG)",
       "yearOfCreation": "2016",
@@ -274,7 +274,7 @@ export default [
     "name": "XCOM 2",
     "shortDescription": "Estrategia táctica y alienígenas.",
     "description": "XCOM 2 es un juego de estrategia por turnos desarrollado por Firaxis Games. La historia se desarrolla 20 años después de los eventos de XCOM: Enemy Unknown, en un mundo donde la humanidad ha sido conquistada por una fuerza alienígena. Los jugadores lideran la resistencia humana, gestionando recursos, investigando nuevas tecnologías y planificando misiones tácticas para derrotar a los invasores. El juego es conocido por su alta dificultad, profundidad estratégica y la necesidad de tomar decisiones críticas bajo presión. XCOM 2 ofrece una experiencia desafiante y gratificante para los aficionados a la estrategia.",
-    "imageUrl": "../img/XCOM.jpeg",
+    "imageUrl": "./img/XCOM.jpeg",
     "facts": {
       "category": "Estrategia",
       "yearOfCreation": "2016",
@@ -289,7 +289,7 @@ export default [
     "name": "Civilization VI",
     "shortDescription": "Construye y expande tu imperio.",
     "description": "Civilization VI es un juego de estrategia por turnos desarrollado por Firaxis Games. Los jugadores construyen y expanden una civilización desde la antigüedad hasta la era moderna, compitiendo contra otras civilizaciones por el dominio global. El juego ofrece múltiples caminos hacia la victoria, como la conquista militar, el progreso científico, la influencia cultural o la diplomacia. Con gráficos coloridos, una jugabilidad profunda y una alta rejugabilidad, Civilization VI ha sido aclamado por su innovación y mejoras en la serie. Cada partida presenta un nuevo desafío estratégico, manteniendo a los jugadores enganchados durante horas.",
-    "imageUrl": "../img/CIVILIZATION.jpeg",
+    "imageUrl": "./img/CIVILIZATION.jpeg",
     "facts": {
       "category": "Estrategia",
       "yearOfCreation": "2016",
@@ -304,7 +304,7 @@ export default [
     "name": "Total War: Three Kingdoms",
     "shortDescription": "Estrategia en la antigua China.",
     "description": "Total War: Three Kingdoms es un juego de estrategia desarrollado por Creative Assembly, ambientado en la era de los Tres Reinos de China. Combina estrategia por turnos en la gestión del imperio con batallas tácticas en tiempo real. Los jugadores deben gestionar recursos, diplomacia y tácticas militares para unificar China bajo su mandato. Con un enfoque en personajes históricos y relaciones entre facciones, el juego ofrece una experiencia profunda y envolvente. La combinación de estrategia política y combates épicos hace de Total War: Three Kingdoms una entrega destacada en la serie.",
-    "imageUrl": "../img/TOTALWAR.jpeg",
+    "imageUrl": "./img/TOTALWAR.jpeg",
     "facts": {
       "category": "Estrategia",
       "yearOfCreation": "2019",
@@ -319,7 +319,7 @@ export default [
     "name": "StarCraft II",
     "shortDescription": "Estrategia en tiempo real espacial.",
     "description": "StarCraft II es un juego de estrategia en tiempo real desarrollado por Blizzard Entertainment. Ambientado en un universo de ciencia ficción, sigue la lucha entre tres razas: Terran, Zerg y Protoss. El juego se divide en tres expansiones, cada una centrada en una raza diferente. Los jugadores deben recolectar recursos, construir bases y comandar ejércitos para derrotar a sus oponentes. Con una jugabilidad rápida y competitiva, StarCraft II ha sido un pilar en la escena de los eSports. Su profundo equilibrio estratégico y su vibrante comunidad lo han mantenido relevante y popular desde su lanzamiento.",
-    "imageUrl": "../img/STAR.jpeg",
+    "imageUrl": "./img/STAR.jpeg",
     "facts": {
       "category": "Estrategia",
       "yearOfCreation": "2010",
@@ -334,7 +334,7 @@ export default [
     "name": "Age of Empires II: Definitive Edition",
     "shortDescription": "Clásico remasterizado de estrategia.",
     "description": "Age of Empires II: Definitive Edition es una remasterización del clásico juego de estrategia en tiempo real desarrollado por Forgotten Empires y publicado por Microsoft. Esta edición presenta gráficos mejorados en 4K, una banda sonora remasterizada y contenido nuevo que incluye campañas y civilizaciones adicionales. Los jugadores deben construir y expandir imperios, gestionar recursos y comandar ejércitos a lo largo de la historia. La jugabilidad adictiva y estratégica del original se mantiene intacta, haciendo de esta edición definitiva una experiencia imprescindible tanto para los nuevos jugadores como para los veteranos de la serie.",
-    "imageUrl": "../img/EMPIRES.jpeg",
+    "imageUrl": "./img/EMPIRES.jpeg",
     "facts": {
       "category": "Estrategia",
       "yearOfCreation": "2019",
@@ -349,7 +349,7 @@ export default [
     "name": "Fire Emblem: Three Houses",
     "shortDescription": "Estrategia táctica y narrativa.",
     "description": "Fire Emblem: Three Houses es un juego de rol táctico desarrollado por Intelligent Systems y Koei Tecmo. Ambientado en el continente de Fódlan, los jugadores asumen el rol de un profesor en la Academia de Oficiales, donde deben entrenar a estudiantes en combate y tomar decisiones estratégicas en batallas por turnos. La narrativa se centra en tres casas nobles, cada una con su propia historia y personajes únicos. Las elecciones del jugador afectan el desarrollo de la trama. El juego combina elementos de simulación social con una jugabilidad táctica profunda, ofreciendo una experiencia rica y envolvente.",
-    "imageUrl": "../img/EMBLEM.jpeg",
+    "imageUrl": "./img/EMBLEM.jpeg",
     "facts": {
       "category": "Estrategia",
       "yearOfCreation": "2019",
