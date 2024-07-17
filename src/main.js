@@ -100,7 +100,15 @@ botonLimpiar.addEventListener("click", limpiarFiltros);
 
 const calcularRankingPromedio = (data, year) => {
 
-  const juegosDelAño = data.filter(item => item.facts.yearOfCreation === year);
+  const juegosDelAño = data.filter(
+    //item => item.facts.yearOfCreation === year
+    /*item => {
+      return item.facts.yearOfCreation === year
+    }*/
+    function (item){
+      return item.facts.yearOfCreation === year
+    }  
+  );
   const sumaDeRankings = juegosDelAño.reduce((sum, item) => sum + parseFloat(item.facts.ranking), 0);
   const rankingPromedio = sumaDeRankings / juegosDelAño.length;
   return rankingPromedio;
