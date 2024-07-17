@@ -65,14 +65,45 @@ Cuando hayan terminado un juego y quieran empezar uno nuevo y quieran alguna rec
 
 ## 5. Prompting Inteligencia Artificial
 
-<b>Prompting de Data</b>
+<b>Prompting de Data ChatGPT</b>
 
-<img src="src/img/Chat Gpt Prompt Data 01.png">
+<img src="src/img/Chat Gpt Prompt Data 01.png"> <img src="src/img/Chat Gpt Prompt Data 02.png">
 
-<img src="src/img/Chat Gpt Prompt Data 02.png">
+<b>Prompting de Imagenes Copilot</b>
+
+<img src="src/img/Copilot Age of Empires.png">
+<img src="src/img/Copilot Breath of the wild.png">
+<img src="src/img/Copilot CIVILIZATION.png">
+<img src="src/img/Copilot Doom.png">
+<img src="src/img/Copilot EMBLEM.png">
+<img src="src/img/Copilot Final Fantasy.png">
+<img src="src/img/Copilot Firewatch.png">
+<img src="src/img/Copilot JOURNEY.png">
+<img src="src/img/Copilot Life is strange.png">
+<img src="src/img/Copilot Persona 5.png">
+<img src="src/img/Copilot Red Dead Redemption 2.png">
+<img src="src/img/Copilot Skyrim.png">
+<img src="src/img/Copilot Spiderman.png">
+<img src="src/img/Copilot The Last of Us II.png">
+<img src="src/img/Copilot The Witcher.png">
+<img src="src/img/Copilot Tomb rider.png">
+<img src="src/img/Copilot Total War.png">
+<img src="src/img/Copilot Uncharted.png">
+<img src="src/img/Copilot XCom.png">
+<img src="src/img/Copilot Dark Souls.png">
+<img src="src/img/Copilot Cyberpunk 2077.png">
 
 ## 6. Tests
 
-npm run test:oas-prompting
+<b>npm run test:</b>
+
+<img src="src/img/Tests datafunctions spec.PNG">
+
+<b>npm run test:oas</b>
 
 <img src="src/img/Tests de Prompting.PNG">
+<img src="src/img/Tests oa css.PNG">
+<img src="src/img/Tests oa web api.PNG">
+<img src="src/img/Tests oa js.PNG">
+<img src="src/img/Tests oa html.PNG">
+
